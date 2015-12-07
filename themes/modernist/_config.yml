@@ -1,0 +1,12 @@
+menu:
+  前端规范: /categories/前端规范/
+  less图标库: /categories/less图标库/
+rss: /atom.xml
+
+archive_date_format: MMM DD
+fancybox: true
+
+duoshuo_shortname:
+
+google_analytics:
+favicon: /favicon.ico
