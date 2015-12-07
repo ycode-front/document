@@ -233,7 +233,7 @@ article header {
   position: relative;
   padding: 0;
   border-bottom: 0;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 article header .icon {
   width: 32px;
@@ -612,13 +612,13 @@ article footer .tags:before {
   }
 }
 figure.highlight {
-  margin: 0 -30px 16px;
+  margin: 0 0px 16px;
   padding: 0 30px;
   background: #3a3c42;
 }
 @media screen and (max-width: 580px) {
   figure.highlight {
-    margin: 0 -20px 16px;
+    margin: 0 0px 16px;
     padding: 0 20px;
   }
 }
@@ -627,7 +627,7 @@ figure.highlight pre {
 }
 @media screen and (max-width: 580px) {
   figure.highlight pre {
-    margin: 0 -20px 0px;
+    margin: 0 0px 0px;
   }
 }
 figure.highlight table {
