@@ -36,9 +36,23 @@ function fun(){
 }
 ```
 
+## 使用字面量创建对象
+
+```javascript
+// 这样做是对的
+var person = {name:'xjc', age:12};
+
+// 这样做是不好的
+var person = new Object();
+person.name = 'xjc';
+person.age = 12;
+```
+
 ## 判断相等
 
 判断相等的时候，请使用严格相等符号 ``===`` 而不是 ``==``
+
+使用``!==``而不是``!=``
 
 ## 分号的使用
 

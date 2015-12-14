@@ -64,6 +64,56 @@
   <header>
     
       <div class="icon"></div>
+      <a href="/2015/12/07/目录规范/">
+  <time datetime="2015-12-07T09:16:02.000Z">
+    2015-12-07
+  </time>
+</a>
+    
+    
+  
+    <h1 class="title"><a href="/2015/12/07/目录规范/">目录规范</a></h1>
+  
+
+  </header>
+  
+  <div class="entry">
+    
+      <h2 id="文件命名">文件命名</h2><p>所有文件命名采用小写字母，多字母的情况下分割符号采用<strong>中划线</strong> <code>-</code></p>
+<p>比如:</p>
+<pre><code>user-info<span class="class">.js</span>
+user-account<span class="class">.html</span>
+book-buy.css
+</code></pre><h2 id="目录命名">目录命名</h2><p>目录命名和文件命名规则一样，在有复数机构的时候，单词采用复数</p>
+<pre><code><span class="title">scripts</span>
+styles
+images
+</code></pre><p><strong>注意</strong>：不再使用 css, js 等目录命名，原因是css里面可能有less文件，js里面也可能有其他脚本语言</p>
+<h2 id="一个规范的目录结构">一个规范的目录结构</h2><pre><code>project
+    index<span class="class">.html</span>
+    images
+    scripts
+    styles
+    templates
+    partials
+</code></pre>
+    
+  </div>
+  <footer class="end-sep">
+    
+      
+      
+    
+    <div class="clearfix"></div>
+  </footer>
+</article>
+
+
+  
+    <article class="post">
+  <header>
+    
+      <div class="icon"></div>
       <a href="/2015/12/07/文档系统使用手册/">
   <time datetime="2015-12-07T02:55:53.000Z">
     2015-12-07
@@ -216,6 +266,8 @@
 <p>文档类型声明放在html文档的开头</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="doctype">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">title</span>&gt;</span><span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>必须添加 doctype ，否在在IE浏览器老版本浏览器下不会用正确的模式进行解析</p>
+<h2 id="指定字符编码">指定字符编码</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">meta</span> <span class="attribute">charset</span>=<span class="value">"UTF-8"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="正确指定文档的标题">正确指定文档的标题</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <h2 id="脚本引入">脚本引入</h2><h3 id="脚本的引入位置">脚本的引入位置</h3><p>脚本的下载和解析会阻塞DOM的解析。所以不要再文档的开头引入脚本。</p>
 <p>脚本放在 body 结束标签之前。</p>
 <p>并且按照脚本的执行顺序，添加 <code>script</code> 标签。</p>
@@ -539,7 +591,9 @@
 <p>注意：前外不要在全局使用严格模式，这样会对第三方插件产生影响，产生错误</p>
 <h2 id="变量的声明">变量的声明</h2><p>变量的声明请提前到模块或者函数的开头，并且使用下面的格式。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> a = <span class="number">1</span>,</span><br><span class="line">        b = <span class="number">3</span>,</span><br><span class="line">        c = <span class="number">5</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// do some thing</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="使用字面量创建对象">使用字面量创建对象</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 这样做是对的</span></span><br><span class="line"><span class="keyword">var</span> person = &#123;name:<span class="string">'xjc'</span>, age:<span class="number">12</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 这样做是不好的</span></span><br><span class="line"><span class="keyword">var</span> person = <span class="keyword">new</span> <span class="built_in">Object</span>();</span><br><span class="line">person.name = <span class="string">'xjc'</span>;</span><br><span class="line">person.age = <span class="number">12</span>;</span><br></pre></td></tr></table></figure>
 <h2 id="判断相等">判断相等</h2><p>判断相等的时候，请使用严格相等符号 <code>===</code> 而不是 <code>==</code></p>
+<p>使用<code>!==</code>而不是<code>!=</code></p>
 <h2 id="分号的使用">分号的使用</h2><p>在每一个表达式结束的时候加上分号<br>并不是所有的语句都是表达式，下面举例说明</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125; <span class="comment">//函数声明，不是表达式，无需分号</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> getName = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;; <span class="comment">//函数表达式，请加上分号</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="literal">true</span>)&#123;</span><br><span class="line"></span><br><span class="line">&#125; <span class="comment">//这也不是表达式，当然不用加分号</span></span><br></pre></td></tr></table></figure>
 <h2 id="循环">循环</h2><h3 id="for-in循环">for-in循环</h3><p>在使用for-in循环的时候，请注意两点</p>
@@ -574,45 +628,6 @@
   </div>
   <footer class="end-sep">
     
-      
-      
-    
-    <div class="clearfix"></div>
-  </footer>
-</article>
-
-
-  
-    <article class="post">
-  <header>
-    
-      <div class="icon"></div>
-      <a href="/2015/10/21/c/">
-  <time datetime="2015-10-21T02:34:12.000Z">
-    2015-10-21
-  </time>
-</a>
-    
-    
-  
-    <h1 class="title"><a href="/2015/10/21/c/">辨析 Sass 中的 Map 和 List</a></h1>
-  
-
-  </header>
-  
-  <div class="entry">
-    
-      <p>如果你使用过 Sass 3.3 之前的版本，那么你一定对那段时光颇有感触，那时候没有现如今这么好的条件，那时候的 Map 还只能用多重列表（lists of list）来模拟。多重列表可以实现复杂数据的嵌套定义，但却不是以键值对的形式实现的，所有当我们需要获取其中特定的某一项时就会比较麻烦。Map 这种数据类型天生就是基于键值对的形式，非常便于组织数据。</p>
-<p>自从可以使用 Map 之后，开发者们开始毫无顾忌地定义 Map 存储数据，比如断点宽度、颜色值、栅格布局等等响应式排版的细节，都被一股脑的塞进了 Map 中。</p>
-<p>那么，有了 Map 之后，我们还有必要使用 List 吗？可能某些人会觉得为了保持向后兼容应该继续使用多重列表模拟 Map，因为可能有些开发者仍然在使用老版本的 Sass 编译器，但实际上，这是多此一举了，Sass 的版本通常由 <code>package.json</code> 或者其他同类型的项目配置文件所控制，往往只需一条命令（<code>gem update sass</code>）即可更新 Sass 的版本，因此基本上无需考虑对老版本的兼容问题。</p>
-    
-  </div>
-  <footer class="end-sep">
-    
-      
-        <div class="alignleft">
-          <a href="/2015/10/21/c/#more" class="more-link">阅读全文</a>
-        </div>
       
       
     

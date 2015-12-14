@@ -27,6 +27,22 @@ categories:
 
 必须添加 doctype ，否在在IE浏览器老版本浏览器下不会用正确的模式进行解析
 
+## 指定字符编码
+
+```html
+<head>
+    <meta charset="UTF-8">
+</head>
+```
+
+## 正确指定文档的标题
+
+```html
+<head>
+    <title>Title</title>
+</head>
+```
+
 ## 脚本引入
 
 ### 脚本的引入位置

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[专注前端100年]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-07T04:35:59.000Z</updated>
+  <updated>2015-12-07T09:31:39.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,42 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[目录规范]]></title>
+    <link href="http://yoursite.com/2015/12/07/%E7%9B%AE%E5%BD%95%E8%A7%84%E8%8C%83/"/>
+    <id>http://yoursite.com/2015/12/07/目录规范/</id>
+    <published>2015-12-07T09:16:02.000Z</published>
+    <updated>2015-12-07T09:31:39.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="文件命名">文件命名</h2><p>所有文件命名采用小写字母，多字母的情况下分割符号采用<strong>中划线</strong> <code>-</code></p>
+<p>比如:</p>
+<pre><code>user-info<span class="class">.js</span>
+user-account<span class="class">.html</span>
+book-buy.css
+</code></pre><h2 id="目录命名">目录命名</h2><p>目录命名和文件命名规则一样，在有复数机构的时候，单词采用复数</p>
+<pre><code><span class="title">scripts</span>
+styles
+images
+</code></pre><p><strong>注意</strong>：不再使用 css, js 等目录命名，原因是css里面可能有less文件，js里面也可能有其他脚本语言</p>
+<h2 id="一个规范的目录结构">一个规范的目录结构</h2><pre><code>project
+    index<span class="class">.html</span>
+    images
+    scripts
+    styles
+    templates
+    partials
+</code></pre>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="文件命名">文件命名</h2><p>所有文件命名采用小写字母，多字母的情况下分割符号采用<strong>中划线</strong> <code>-</code></p>
+<p>比如:</p>
+<pre><code>user-info<span class="clas]]>
+    </summary>
+    
+      <category term="前端规范" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E8%A7%84%E8%8C%83/"/>
+    
+      <category term="前端代码规范" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E8%A7%84%E8%8C%83/%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[文档系统使用手册]]></title>
@@ -101,11 +137,13 @@
     <link href="http://yoursite.com/2015/12/04/html%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/"/>
     <id>http://yoursite.com/2015/12/04/html代码规范/</id>
     <published>2015-12-04T01:47:03.000Z</published>
-    <updated>2015-12-04T03:25:31.000Z</updated>
+    <updated>2015-12-07T09:27:41.000Z</updated>
     <content type="html"><![CDATA[<h2 id="文档类型声明">文档类型声明</h2><p>采用html5的文档类型声明。</p>
 <p>文档类型声明放在html文档的开头</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="doctype">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">title</span>&gt;</span><span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>必须添加 doctype ，否在在IE浏览器老版本浏览器下不会用正确的模式进行解析</p>
+<h2 id="指定字符编码">指定字符编码</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">meta</span> <span class="attribute">charset</span>=<span class="value">"UTF-8"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="正确指定文档的标题">正确指定文档的标题</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">title</span>&gt;</span>Title<span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <h2 id="脚本引入">脚本引入</h2><h3 id="脚本的引入位置">脚本的引入位置</h3><p>脚本的下载和解析会阻塞DOM的解析。所以不要再文档的开头引入脚本。</p>
 <p>脚本放在 body 结束标签之前。</p>
 <p>并且按照脚本的执行顺序，添加 <code>script</code> 标签。</p>
@@ -344,13 +382,15 @@
     <link href="http://yoursite.com/2015/11/18/javascript%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/"/>
     <id>http://yoursite.com/2015/11/18/javascript代码规范/</id>
     <published>2015-11-18T01:26:36.000Z</published>
-    <updated>2015-12-03T14:39:38.000Z</updated>
+    <updated>2015-12-07T09:39:48.000Z</updated>
     <content type="html"><![CDATA[<h2 id="使用严格模式">使用严格模式</h2><p>使用严格模式会对代码进行更严格的检测，避免一些意想不到错误，同时也是为将来的js版本做兼容。严格模式的规则可以参考<a href="http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html" target="_blank" rel="external">Javascript 严格模式详解</a>.</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">(<span class="function"><span class="keyword">function</span>(<span class="params">$</span>)</span>&#123;</span><br><span class="line"><span class="pi">    'use strict'</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//do some thing</span></span><br><span class="line"></span><br><span class="line">&#125;(jQuery))</span><br></pre></td></tr></table></figure>
 <p>注意：前外不要在全局使用严格模式，这样会对第三方插件产生影响，产生错误</p>
 <h2 id="变量的声明">变量的声明</h2><p>变量的声明请提前到模块或者函数的开头，并且使用下面的格式。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> a = <span class="number">1</span>,</span><br><span class="line">        b = <span class="number">3</span>,</span><br><span class="line">        c = <span class="number">5</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// do some thing</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="使用字面量创建对象">使用字面量创建对象</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 这样做是对的</span></span><br><span class="line"><span class="keyword">var</span> person = &#123;name:<span class="string">'xjc'</span>, age:<span class="number">12</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 这样做是不好的</span></span><br><span class="line"><span class="keyword">var</span> person = <span class="keyword">new</span> <span class="built_in">Object</span>();</span><br><span class="line">person.name = <span class="string">'xjc'</span>;</span><br><span class="line">person.age = <span class="number">12</span>;</span><br></pre></td></tr></table></figure>
 <h2 id="判断相等">判断相等</h2><p>判断相等的时候，请使用严格相等符号 <code>===</code> 而不是 <code>==</code></p>
+<p>使用<code>!==</code>而不是<code>!=</code></p>
 <h2 id="分号的使用">分号的使用</h2><p>在每一个表达式结束的时候加上分号<br>并不是所有的语句都是表达式，下面举例说明</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125; <span class="comment">//函数声明，不是表达式，无需分号</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> getName = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;; <span class="comment">//函数表达式，请加上分号</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="literal">true</span>)&#123;</span><br><span class="line"></span><br><span class="line">&#125; <span class="comment">//这也不是表达式，当然不用加分号</span></span><br></pre></td></tr></table></figure>
 <h2 id="循环">循环</h2><h3 id="for-in循环">for-in循环</h3><p>在使用for-in循环的时候，请注意两点</p>
@@ -388,6 +428,28 @@
       <category term="前端规范" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E8%A7%84%E8%8C%83/"/>
     
       <category term="前端代码规范" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E8%A7%84%E8%8C%83/%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[jquery]]></title>
+    <link href="http://yoursite.com/2015/10/21/b/"/>
+    <id>http://yoursite.com/2015/10/21/b/</id>
+    <published>2015-10-21T02:34:12.000Z</published>
+    <updated>2015-12-03T01:25:09.000Z</updated>
+    <content type="html"><![CDATA[<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    "<span class="attribute">title</span>":<span class="value"><span class="string">"asdf"</span></span><br><span class="line"></span>&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ab</span> </span>&#123;</span><br><span class="line">    a:<span class="number">1</span>,</span><br><span class="line">    c:<span class="number">2</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">"#box"</span>).goto();</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">asdl</span>(<span class="params">sdf</span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log();</span><br><span class="line">    <span class="built_in">document</span>.getElementById();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+    <summary type="html">
+    <![CDATA[<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class=]]>
+    </summary>
+    
+      <category term="abc" scheme="http://yoursite.com/tags/abc/"/>
+    
+      <category term="other" scheme="http://yoursite.com/categories/other/"/>
+    
+      <category term="theother" scheme="http://yoursite.com/categories/other/theother/"/>
     
   </entry>
   
@@ -487,28 +549,6 @@
       <category term="abc" scheme="http://yoursite.com/tags/abc/"/>
     
       <category term="other" scheme="http://yoursite.com/categories/other/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[jquery]]></title>
-    <link href="http://yoursite.com/2015/10/21/b/"/>
-    <id>http://yoursite.com/2015/10/21/b/</id>
-    <published>2015-10-21T02:34:12.000Z</published>
-    <updated>2015-12-03T01:25:09.000Z</updated>
-    <content type="html"><![CDATA[<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    "<span class="attribute">title</span>":<span class="value"><span class="string">"asdf"</span></span><br><span class="line"></span>&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ab</span> </span>&#123;</span><br><span class="line">    a:<span class="number">1</span>,</span><br><span class="line">    c:<span class="number">2</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">"#box"</span>).goto();</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">asdl</span>(<span class="params">sdf</span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log();</span><br><span class="line">    <span class="built_in">document</span>.getElementById();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-    <summary type="html">
-    <![CDATA[<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class=]]>
-    </summary>
-    
-      <category term="abc" scheme="http://yoursite.com/tags/abc/"/>
-    
-      <category term="other" scheme="http://yoursite.com/categories/other/"/>
-    
-      <category term="theother" scheme="http://yoursite.com/categories/other/theother/"/>
     
   </entry>
   
