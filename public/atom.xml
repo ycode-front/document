@@ -4,7 +4,7 @@
   <subtitle><![CDATA[专注前端100年]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-12-07T04:35:59.000Z</updated>
+  <updated>2015-12-14T04:05:27.698Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,42 +15,55 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[qiuTest]]></title>
+    <link href="http://yoursite.com/2015/12/14/qiuTest/"/>
+    <id>http://yoursite.com/2015/12/14/qiuTest/</id>
+    <published>2015-12-14T04:04:16.000Z</published>
+    <updated>2015-12-14T04:05:27.698Z</updated>
+    <content type="html"><![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="test"><a href="#test" class="headerlink" title="test"></a>test</h2>]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[文档系统使用手册]]></title>
     <link href="http://yoursite.com/2015/12/07/%E6%96%87%E6%A1%A3%E7%B3%BB%E7%BB%9F%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
     <id>http://yoursite.com/2015/12/07/文档系统使用手册/</id>
     <published>2015-12-07T02:55:53.000Z</published>
-    <updated>2015-12-07T04:35:59.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="环境准备">环境准备</h2><h3 id="github_环境">github 环境</h3><p>配置ssh,具体步骤见<a href="https://help.github.com/articles/generating-ssh-keys" target="_blank" rel="external">教程</a></p>
-<h3 id="hexo_环境">hexo 环境</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo -g</span><br></pre></td></tr></table></figure>
-<h3 id="克隆源代码">克隆源代码</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone git@github.com:ycode-front/document.git</span><br></pre></td></tr></table></figure>
-<h3 id="安装包">安装包</h3><p>在源代码目录下</p>
+    <updated>2015-12-14T03:24:30.107Z</updated>
+    <content type="html"><![CDATA[<h2 id="u73AF_u5883_u51C6_u5907"><a href="#u73AF_u5883_u51C6_u5907" class="headerlink" title="环境准备"></a>环境准备</h2><h3 id="github__u73AF_u5883"><a href="#github__u73AF_u5883" class="headerlink" title="github 环境"></a>github 环境</h3><p>配置ssh,具体步骤见<a href="https://help.github.com/articles/generating-ssh-keys" target="_blank" rel="external">教程</a></p>
+<h3 id="hexo__u73AF_u5883"><a href="#hexo__u73AF_u5883" class="headerlink" title="hexo 环境"></a>hexo 环境</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo -g</span><br></pre></td></tr></table></figure>
+<h3 id="u514B_u9686_u6E90_u4EE3_u7801"><a href="#u514B_u9686_u6E90_u4EE3_u7801" class="headerlink" title="克隆源代码"></a>克隆源代码</h3><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone git@github.com:ycode-front/document.git</span><br></pre></td></tr></table></figure>
+<h3 id="u5B89_u88C5_u5305"><a href="#u5B89_u88C5_u5305" class="headerlink" title="安装包"></a>安装包</h3><p>在源代码目录下</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<h2 id="发布文章">发布文章</h2><h3 id="第一步_拉取最新代码">第一步 拉取最新代码</h3><p>在源代码目录下</p>
+<h2 id="u53D1_u5E03_u6587_u7AE0"><a href="#u53D1_u5E03_u6587_u7AE0" class="headerlink" title="发布文章"></a>发布文章</h2><h3 id="u7B2C_u4E00_u6B65__u62C9_u53D6_u6700_u65B0_u4EE3_u7801"><a href="#u7B2C_u4E00_u6B65__u62C9_u53D6_u6700_u65B0_u4EE3_u7801" class="headerlink" title="第一步 拉取最新代码"></a>第一步 拉取最新代码</h3><p>在源代码目录下</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git pull origin master</span><br></pre></td></tr></table></figure>
-<h3 id="第二步_创建一个文档">第二步 创建一个文档</h3><p>在源代码目录下</p>
+<h3 id="u7B2C_u4E8C_u6B65__u521B_u5EFA_u4E00_u4E2A_u6587_u6863"><a href="#u7B2C_u4E8C_u6B65__u521B_u5EFA_u4E00_u4E2A_u6587_u6863" class="headerlink" title="第二步 创建一个文档"></a>第二步 创建一个文档</h3><p>在源代码目录下</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new post [&#25991;&#26723;&#30340;&#21517;&#31216;]</span><br></pre></td></tr></table></figure>
-<h3 id="第三步_填写对应的目录">第三步 填写对应的目录</h3><ol>
+<h3 id="u7B2C_u4E09_u6B65__u586B_u5199_u5BF9_u5E94_u7684_u76EE_u5F55"><a href="#u7B2C_u4E09_u6B65__u586B_u5199_u5BF9_u5E94_u7684_u76EE_u5F55" class="headerlink" title="第三步 填写对应的目录"></a>第三步 填写对应的目录</h3><ol>
 <li>用编辑器打开源代码目录</li>
 <li>打开 <code>souce/_posts/[文档的名称]</code>文件</li>
 <li>修改 categories </li>
 </ol>
-<h3 id="第四步_写文档">第四步 写文档</h3><ol>
+<h3 id="u7B2C_u56DB_u6B65__u5199_u6587_u6863"><a href="#u7B2C_u56DB_u6B65__u5199_u6587_u6863" class="headerlink" title="第四步 写文档"></a>第四步 写文档</h3><ol>
 <li>用编辑器打开源代码目录</li>
 <li>打开 <code>souce/_posts/[文档的名称]</code>文件</li>
 <li>用 markdown 格式写文档</li>
 </ol>
-<h3 id="第五步_推送代码">第五步 推送代码</h3><p>文档填写完成之后，请提交代码。否则别人在添加文档发布之后你的文档就丢失了。</p>
-<h3 id="第六步_发布文档">第六步 发布文档</h3><p>在源代码目录下</p>
+<h3 id="u7B2C_u4E94_u6B65__u63A8_u9001_u4EE3_u7801"><a href="#u7B2C_u4E94_u6B65__u63A8_u9001_u4EE3_u7801" class="headerlink" title="第五步 推送代码"></a>第五步 推送代码</h3><p>文档填写完成之后，请提交代码。否则别人在添加文档发布之后你的文档就丢失了。</p>
+<h3 id="u7B2C_u516D_u6B65__u53D1_u5E03_u6587_u6863"><a href="#u7B2C_u516D_u6B65__u53D1_u5E03_u6587_u6863" class="headerlink" title="第六步 发布文档"></a>第六步 发布文档</h3><p>在源代码目录下</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate #&#29983;&#25104;&#21457;&#24067;&#20195;&#30721;&#10;$ hexo deploy #&#21457;&#24067;&#21040;&#26381;&#21153;&#22120;</span><br></pre></td></tr></table></figure>
-<h3 id="本地预览站点">本地预览站点</h3><p>在源代码目录下</p>
+<h3 id="u672C_u5730_u9884_u89C8_u7AD9_u70B9"><a href="#u672C_u5730_u9884_u89C8_u7AD9_u70B9" class="headerlink" title="本地预览站点"></a>本地预览站点</h3><p>在源代码目录下</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server #&#24320;&#21551;&#26412;&#22320;&#26381;&#21153;&#22120;&#39044;&#35272;</span><br></pre></td></tr></table></figure>
-<h2 id="文档系统原理">文档系统原理</h2><p>这个文档系统是基于 <a href="https://hexo.io" target="_blank" rel="external">hexo</a> 这个静态站点发布工具的。所以了解一下基本的hexo命令对于文档系统的使用大有帮助。</p>
+<h2 id="u6587_u6863_u7CFB_u7EDF_u539F_u7406"><a href="#u6587_u6863_u7CFB_u7EDF_u539F_u7406" class="headerlink" title="文档系统原理"></a>文档系统原理</h2><p>这个文档系统是基于 <a href="https://hexo.io" target="_blank" rel="external">hexo</a> 这个静态站点发布工具的。所以了解一下基本的hexo命令对于文档系统的使用大有帮助。</p>
 <p>文档系统分为<strong>源代码</strong>和<strong>发布代码</strong>两部分，类似前端构建中的开发目录和发布目录。</p>
 <p><strong>发布代码</strong>是直接可以打开的页面。这部分代码被部署到<a href="https://pages.github.com" target="_blank" rel="external">github pages</a>上。<a href="https://pages.github.com" target="_blank" rel="external">github pages</a> 可以理解为一个静态服务器，将<strong>发布代码</strong>发布到pages的方法非常简单，就是新建一个特殊的github仓库，然后将代码上传到这个仓库，就可以使用指定的域名进行访问了。在这个文档系统中，这个仓库是<a href="git@github.com:ycode-front/ycode-front.github.io.git">git@github.com:ycode-front/ycode-front.github.io.git</a>，而域名是<a href="http://ycode-front.github.io" target="_blank" rel="external">http://ycode-front.github.io</a>.更多的信息可以查看<a href="https://pages.github.com" target="_blank" rel="external">github pages</a>。实际上发布是自动化，hexo在发布的时候，会自动把发布代码上传到指定的仓库，所以我们不用关注这个发布仓库。</p>
 <p><strong>源代码</strong>也被放在github上，仓库是<a href="git@github.com:ycode-front/document.git">git@github.com:ycode-front/document.git</a>,将它称为源代码仓库。我们新建文档，修改文档都是在源代码中进行的.在修改之前需要拉去源代码，在修改之后需要推送源代码，因为文档的维护不止一个人。其实就和我们开发项目一样，最后进行发布。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="环境准备">环境准备</h2><h3 id="github_环境">github 环境</h3><p>配置ssh,具体步骤见<a href="https://help.github.com/articles/generating-ssh-keys" target=]]>
+    <![CDATA[<h2 id="u73AF_u5883_u51C6_u5907"><a href="#u73AF_u5883_u51C6_u5907" class="headerlink" title="环境准备"></a>环境准备</h2><h3 id="github__u73AF_u5883]]>
     </summary>
     
       <category term="使用手册" scheme="http://yoursite.com/categories/%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
@@ -62,7 +75,7 @@
     <link href="http://yoursite.com/2015/12/07/%E6%96%87%E6%A1%A3%E7%9A%84%E5%8F%91%E5%B8%83/"/>
     <id>http://yoursite.com/2015/12/07/文档的发布/</id>
     <published>2015-12-07T01:16:38.000Z</published>
-    <updated>2015-12-07T01:16:38.000Z</updated>
+    <updated>2015-12-14T03:24:30.106Z</updated>
     <content type="html"></content>
     <summary type="html">
     
@@ -75,19 +88,16 @@
     <link href="http://yoursite.com/2015/12/04/html%E6%B3%A8%E9%87%8A%E8%A7%84%E8%8C%83/"/>
     <id>http://yoursite.com/2015/12/04/html注释规范/</id>
     <published>2015-12-04T03:20:08.000Z</published>
-    <updated>2015-12-04T06:50:12.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="内容的注释">内容的注释</h2><p>显然不必给每个html模块都加上注释，给一些大的比较关键的html模块加上注释</p>
+    <updated>2015-12-14T03:24:30.104Z</updated>
+    <content type="html"><![CDATA[<h2 id="u5185_u5BB9_u7684_u6CE8_u91CA"><a href="#u5185_u5BB9_u7684_u6CE8_u91CA" class="headerlink" title="内容的注释"></a>内容的注释</h2><p>显然不必给每个html模块都加上注释，给一些大的比较关键的html模块加上注释</p>
 <p>由于现在编辑器都有代码自动对齐和折叠的功能，注释不必结束，这样反而更加清晰</p>
 <p>每一行注释之前加一个空行</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 主体内容 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"content"</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">&lt;!-- 页面导航 --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">nav</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">ul</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="title">li</span>&gt;</span><span class="tag">&lt;/<span class="title">li</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="title">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="title">nav</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 页面页脚信息 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"footer"</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="脚本注释">脚本注释</h2><p>在脚本引入的时候用注释，来说明一段脚本的作用非常重要</p>
+<h2 id="u811A_u672C_u6CE8_u91CA"><a href="#u811A_u672C_u6CE8_u91CA" class="headerlink" title="脚本注释"></a>脚本注释</h2><p>在脚本引入的时候用注释，来说明一段脚本的作用非常重要</p>
 <p>在引入一段新的脚本的时候，别人需要了解之前脚本的功能，判断新脚本的引入位置</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 库脚本 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"jQuery.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 统计代码 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"ga-google.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="内容的注释">内容的注释</h2><p>显然不必给每个html模块都加上注释，给一些大的比较关键的html模块加上注释</p>
-<p>由于现在编辑器都有代码自动对齐和折叠的功能，注释不必结束，这样反而更加清晰</p>
-<p>每一行注释之前加一个空行</p>
-<fi]]>
+    <![CDATA[<h2 id="u5185_u5BB9_u7684_u6CE8_u91CA"><a href="#u5185_u5BB9_u7684_u6CE8_u91CA" class="headerlink" title="内容的注释"></a>内容的注释</h2><p>显然不必给每个htm]]>
     </summary>
     
       <category term="前端规范" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E8%A7%84%E8%8C%83/"/>
@@ -101,32 +111,30 @@
     <link href="http://yoursite.com/2015/12/04/html%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/"/>
     <id>http://yoursite.com/2015/12/04/html代码规范/</id>
     <published>2015-12-04T01:47:03.000Z</published>
-    <updated>2015-12-04T03:25:31.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="文档类型声明">文档类型声明</h2><p>采用html5的文档类型声明。</p>
+    <updated>2015-12-14T03:24:30.103Z</updated>
+    <content type="html"><![CDATA[<h2 id="u6587_u6863_u7C7B_u578B_u58F0_u660E"><a href="#u6587_u6863_u7C7B_u578B_u58F0_u660E" class="headerlink" title="文档类型声明"></a>文档类型声明</h2><p>采用html5的文档类型声明。</p>
 <p>文档类型声明放在html文档的开头</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="doctype">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">title</span>&gt;</span><span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>必须添加 doctype ，否在在IE浏览器老版本浏览器下不会用正确的模式进行解析</p>
-<h2 id="脚本引入">脚本引入</h2><h3 id="脚本的引入位置">脚本的引入位置</h3><p>脚本的下载和解析会阻塞DOM的解析。所以不要再文档的开头引入脚本。</p>
+<h2 id="u811A_u672C_u5F15_u5165"><a href="#u811A_u672C_u5F15_u5165" class="headerlink" title="脚本引入"></a>脚本引入</h2><h3 id="u811A_u672C_u7684_u5F15_u5165_u4F4D_u7F6E"><a href="#u811A_u672C_u7684_u5F15_u5165_u4F4D_u7F6E" class="headerlink" title="脚本的引入位置"></a>脚本的引入位置</h3><p>脚本的下载和解析会阻塞DOM的解析。所以不要再文档的开头引入脚本。</p>
 <p>脚本放在 body 结束标签之前。</p>
 <p>并且按照脚本的执行顺序，添加 <code>script</code> 标签。</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="doctype">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">title</span>&gt;</span><span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 文档内容 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"jquery.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"main.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>不要在script标签中添加 asyc defer 属性，这样会打乱 js 的执行顺序，从而发送错误</p>
-<h3 id="内联脚本">内联脚本</h3><p>只有在一种情况下使用内联脚本，就是在需要对页面进行用户配置的时候</p>
+<h3 id="u5185_u8054_u811A_u672C"><a href="#u5185_u8054_u811A_u672C" class="headerlink" title="内联脚本"></a>内联脚本</h3><p>只有在一种情况下使用内联脚本，就是在需要对页面进行用户配置的时候</p>
 <p>且尽可能只暴露一个入口用于配置</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="doctype">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">title</span>&gt;</span><span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 文档内容 --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"jquery.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span> <span class="attribute">src</span>=<span class="value">"main.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">type</span>=<span class="value">"text/javascript"</span>&gt;</span><span class="actionscript"></span><br><span class="line">    Main.init(&#123;</span><br><span class="line">        name:<span class="string">'1234'</span></span><br><span class="line">    &#125;);</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="样式的引入">样式的引入</h2><h3 id="内联样式">内联样式</h3><p>不要使用内联样式</p>
+<h2 id="u6837_u5F0F_u7684_u5F15_u5165"><a href="#u6837_u5F0F_u7684_u5F15_u5165" class="headerlink" title="样式的引入"></a>样式的引入</h2><h3 id="u5185_u8054_u6837_u5F0F"><a href="#u5185_u8054_u6837_u5F0F" class="headerlink" title="内联样式"></a>内联样式</h3><p>不要使用内联样式</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 不要这样使用 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">style</span> <span class="attribute">type</span>=<span class="value">"text/css"</span>&gt;</span><span class="css"></span><br><span class="line">    <span class="class">.footer</span> <span class="rules">&#123;</span><br><span class="line">        <span class="rule"><span class="attribute">color</span>:<span class="value">red</span></span>;</span><br><span class="line">    &#125;</span></span><br><span class="line"></span><span class="tag">&lt;/<span class="title">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h3 id="嵌入式样式">嵌入式样式</h3><p>不要使用嵌入式样式</p>
+<h3 id="u5D4C_u5165_u5F0F_u6837_u5F0F"><a href="#u5D4C_u5165_u5F0F_u6837_u5F0F" class="headerlink" title="嵌入式样式"></a>嵌入式样式</h3><p>不要使用嵌入式样式</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">&lt;!-- 不要这样使用 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"footer"</span> <span class="attribute">style</span>=<span class="value">"color:red"</span>&gt;</span></span><br><span class="line">    </span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="id的使用">id的使用</h2><p>尽量不要使用 id 作为css选择器</p>
+<h2 id="id_u7684_u4F7F_u7528"><a href="#id_u7684_u4F7F_u7528" class="headerlink" title="id的使用"></a>id的使用</h2><p>尽量不要使用 id 作为css选择器</p>
 <p>只将 id 作为锚点使用</p>
-<h2 id="引号">引号</h2><p>在html中使用双引号，在js中使用单引号</p>
-<h2 id="标签的闭合">标签的闭合</h2><p>单标签不需要闭合</p>
+<h2 id="u5F15_u53F7"><a href="#u5F15_u53F7" class="headerlink" title="引号"></a>引号</h2><p>在html中使用双引号，在js中使用单引号</p>
+<h2 id="u6807_u7B7E_u7684_u95ED_u5408"><a href="#u6807_u7B7E_u7684_u95ED_u5408" class="headerlink" title="标签的闭合"></a>标签的闭合</h2><p>单标签不需要闭合</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">br</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">hr</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="文档类型声明">文档类型声明</h2><p>采用html5的文档类型声明。</p>
-<p>文档类型声明放在html文档的开头</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre]]>
+    <![CDATA[<h2 id="u6587_u6863_u7C7B_u578B_u58F0_u660E"><a href="#u6587_u6863_u7C7B_u578B_u58F0_u660E" class="headerlink" title="文档类型声明"></a>文档类型声明</h2]]>
     </summary>
     
       <category term="前端规范" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E8%A7%84%E8%8C%83/"/>
@@ -140,23 +148,21 @@
     <link href="http://yoursite.com/2015/12/03/javascript%E6%B3%A8%E9%87%8A%E8%A7%84%E8%8C%83/"/>
     <id>http://yoursite.com/2015/12/03/javascript注释规范/</id>
     <published>2015-12-03T13:26:45.000Z</published>
-    <updated>2015-12-03T14:38:22.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="模块的注释">模块的注释</h2><p>在模块的注释中还可以添加更多的信息，比如日期等等。</p>
+    <updated>2015-12-14T03:24:30.105Z</updated>
+    <content type="html"><![CDATA[<h2 id="u6A21_u5757_u7684_u6CE8_u91CA"><a href="#u6A21_u5757_u7684_u6CE8_u91CA" class="headerlink" title="模块的注释"></a>模块的注释</h2><p>在模块的注释中还可以添加更多的信息，比如日期等等。</p>
 <p>在模块的描述可以不止一行，根据需要填写，写完描述空一行。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * [description]</span><br><span class="line"> * </span><br><span class="line"> * @module [modulename]</span><br><span class="line"> * @author sumight</span><br><span class="line"> */</span></span><br></pre></td></tr></table></figure>
-<h2 id="函数注释">函数注释</h2><p>如果函数没有参数，也没有返回值，那么注释可以只有描述信息</p>
+<h2 id="u51FD_u6570_u6CE8_u91CA"><a href="#u51FD_u6570_u6CE8_u91CA" class="headerlink" title="函数注释"></a>函数注释</h2><p>如果函数没有参数，也没有返回值，那么注释可以只有描述信息</p>
 <p>例子紧跟在描述的下面，最后空一行。</p>
 <p>将例子和描述放在一起是因为描述和例子都可能很长，而参数和返回值等重要信息需要和函数实体紧靠在一起。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * [fun description]</span><br><span class="line"> * Example:</span><br><span class="line"> *      var name = fun('小明'');</span><br><span class="line"> *      var hello = name + ' 你好';</span><br><span class="line"> * </span><br><span class="line"> * @param  &#123;[type]&#125; name [description]</span><br><span class="line"> * @return &#123;[type]&#125;      [description]</span><br><span class="line"> */</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params">name</span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> name;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="关键变量注释">关键变量注释</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * [cfg description]</span><br><span class="line"> * </span><br><span class="line"> * @type &#123;Object&#125;</span><br><span class="line"> */</span></span><br><span class="line"><span class="keyword">var</span> cfg = &#123;&#125;;</span><br></pre></td></tr></table></figure>
-<h2 id="语句注释">语句注释</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 计算 a 和 b 的和</span></span><br><span class="line">x = a + b;</span><br></pre></td></tr></table></figure>
-<h2 id="TODO注释">TODO注释</h2><p>TODO 用来标记下次需要做的工作，相当于一个标签，在一段代码没有完成的时候可以使用doto来标记未完成的代码位置</p>
+<h2 id="u5173_u952E_u53D8_u91CF_u6CE8_u91CA"><a href="#u5173_u952E_u53D8_u91CF_u6CE8_u91CA" class="headerlink" title="关键变量注释"></a>关键变量注释</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * [cfg description]</span><br><span class="line"> * </span><br><span class="line"> * @type &#123;Object&#125;</span><br><span class="line"> */</span></span><br><span class="line"><span class="keyword">var</span> cfg = &#123;&#125;;</span><br></pre></td></tr></table></figure>
+<h2 id="u8BED_u53E5_u6CE8_u91CA"><a href="#u8BED_u53E5_u6CE8_u91CA" class="headerlink" title="语句注释"></a>语句注释</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 计算 a 和 b 的和</span></span><br><span class="line">x = a + b;</span><br></pre></td></tr></table></figure>
+<h2 id="TODO_u6CE8_u91CA"><a href="#TODO_u6CE8_u91CA" class="headerlink" title="TODO注释"></a>TODO注释</h2><p>TODO 用来标记下次需要做的工作，相当于一个标签，在一段代码没有完成的时候可以使用doto来标记未完成的代码位置</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// TODO 计算多个数的和</span></span><br><span class="line">x = a + b + ;</span><br></pre></td></tr></table></figure>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="模块的注释">模块的注释</h2><p>在模块的注释中还可以添加更多的信息，比如日期等等。</p>
-<p>在模块的描述可以不止一行，根据需要填写，写完描述空一行。</p>
-<figure class="highlight javascript"><table><t]]>
+    <![CDATA[<h2 id="u6A21_u5757_u7684_u6CE8_u91CA"><a href="#u6A21_u5757_u7684_u6CE8_u91CA" class="headerlink" title="模块的注释"></a>模块的注释</h2><p>在模块的注释中还可以]]>
     </summary>
     
       <category term="前端规范" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E8%A7%84%E8%8C%83/"/>
@@ -170,10 +176,10 @@
     <link href="http://yoursite.com/2015/11/23/arrow-left/"/>
     <id>http://yoursite.com/2015/11/23/arrow-left/</id>
     <published>2015-11-23T12:29:38.000Z</published>
-    <updated>2015-11-23T12:44:58.000Z</updated>
+    <updated>2015-12-14T03:24:30.101Z</updated>
     <content type="html"><![CDATA[<p>左箭头</p>
 <figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.arrow-left</span>(<span class="variable">@width</span>, <span class="variable">@height</span>, <span class="variable">@border</span>)</span><br></pre></td></tr></table></figure>
-<h2 id="参数">参数</h2><table>
+<h2 id="u53C2_u6570"><a href="#u53C2_u6570" class="headerlink" title="参数"></a>参数</h2><table>
 <thead>
 <tr>
 <th style="text-align:center">参数名</th>
@@ -195,8 +201,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="demo">demo</h2><h3 id="代码">代码</h3><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.add-btn</span> &#123;</span><br><span class="line">    <span class="attribute">margin-top</span>: -<span class="number">15px</span>;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">45px</span>;</span><br><span class="line">    <span class="class">.ico-add</span>(<span class="number">30px</span>, gray, white);</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="效果">效果</h3><p><i class="demo"></i></p>
+<h2 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h2><h3 id="u4EE3_u7801"><a href="#u4EE3_u7801" class="headerlink" title="代码"></a>代码</h3><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.add-btn</span> &#123;</span><br><span class="line">    <span class="attribute">margin-top</span>: -<span class="number">15px</span>;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">45px</span>;</span><br><span class="line">    <span class="class">.ico-add</span>(<span class="number">30px</span>, gray, white);</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="u6548_u679C"><a href="#u6548_u679C" class="headerlink" title="效果"></a>效果</h3><p><i class="demo"></i></p>
 <style type="text/css">
 .demo {
   margin: 10px 0;
@@ -232,7 +238,7 @@
 </style>
 
 
-<h2 id="源代码">源代码</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.arrow-left</span>(<span class="variable">@width</span>, <span class="variable">@height</span>, <span class="variable">@border</span>) &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="variable">@width</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">2</span>*<span class="variable">@width</span>;</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="keyword">&amp;</span><span class="pseudo">:after</span> &#123;</span><br><span class="line">        <span class="attribute">content</span>: <span class="string">''</span>;</span><br><span class="line">        <span class="attribute">display</span>: block;</span><br><span class="line">        <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">        <span class="attribute">-webkit-box-sizing</span>: border-box;</span><br><span class="line">        <span class="attribute">width</span>: <span class="variable">@width</span>*<span class="function">sqrt</span>(<span class="number">2</span>);</span><br><span class="line">        <span class="attribute">height</span>: <span class="variable">@width</span>*<span class="function">sqrt</span>(<span class="number">2</span>);</span><br><span class="line">        <span class="attribute">border-left</span>: <span class="variable">@border</span>;</span><br><span class="line">        <span class="attribute">border-bottom</span>: <span class="variable">@border</span>;</span><br><span class="line">        <span class="attribute">position</span>: absolute;</span><br><span class="line">        <span class="attribute">top</span>: (<span class="variable">@width</span>*<span class="number">2</span> - <span class="variable">@width</span>*<span class="function">sqrt</span>(<span class="number">2</span>))/<span class="number">2</span>;</span><br><span class="line">        <span class="attribute">left</span>: (<span class="variable">@width</span>*<span class="number">2</span> - <span class="variable">@width</span>*<span class="function">sqrt</span>(<span class="number">2</span>))/<span class="number">2</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="attribute">-webkit-transform</span>: <span class="function">rotate</span>(<span class="number">45deg</span>);</span><br><span class="line">        <span class="attribute">-webkit-transform-origin</span>: <span class="number">50%</span> <span class="number">50%</span>;</span><br><span class="line">        <span class="attribute">transform</span>: <span class="function">rotate</span>(<span class="number">45deg</span>);</span><br><span class="line">        <span class="attribute">transform-origin</span>: <span class="number">50%</span> <span class="number">50%</span>;</span><br><span class="line">        <span class="comment">// border-top-left-radius: 3px;</span></span><br><span class="line">        <span class="comment">// border-bottom-right-radius: 3px;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="attribute">-webkit-transform-origin</span>:<span class="number">50%</span> <span class="number">0%</span>;</span><br><span class="line">    <span class="attribute">-webkit-transform</span>:<span class="function">scaleY</span>(<span class="function">unit</span>(<span class="variable">@height</span>/(<span class="number">2</span>*<span class="variable">@width</span>)));</span><br><span class="line">    <span class="attribute">transform-origin</span>:<span class="number">50%</span> <span class="number">0%</span>;</span><br><span class="line">    <span class="attribute">transform</span>:<span class="function">scaleY</span>(<span class="function">unit</span>(<span class="variable">@height</span>/(<span class="number">2</span>*<span class="variable">@width</span>)));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+<h2 id="u6E90_u4EE3_u7801"><a href="#u6E90_u4EE3_u7801" class="headerlink" title="源代码"></a>源代码</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.arrow-left</span>(<span class="variable">@width</span>, <span class="variable">@height</span>, <span class="variable">@border</span>) &#123;</span><br><span class="line">    <span class="attribute">width</span>: <span class="variable">@width</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="number">2</span>*<span class="variable">@width</span>;</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="keyword">&amp;</span><span class="pseudo">:after</span> &#123;</span><br><span class="line">        <span class="attribute">content</span>: <span class="string">''</span>;</span><br><span class="line">        <span class="attribute">display</span>: block;</span><br><span class="line">        <span class="attribute">box-sizing</span>: border-box;</span><br><span class="line">        <span class="attribute">-webkit-box-sizing</span>: border-box;</span><br><span class="line">        <span class="attribute">width</span>: <span class="variable">@width</span>*<span class="function">sqrt</span>(<span class="number">2</span>);</span><br><span class="line">        <span class="attribute">height</span>: <span class="variable">@width</span>*<span class="function">sqrt</span>(<span class="number">2</span>);</span><br><span class="line">        <span class="attribute">border-left</span>: <span class="variable">@border</span>;</span><br><span class="line">        <span class="attribute">border-bottom</span>: <span class="variable">@border</span>;</span><br><span class="line">        <span class="attribute">position</span>: absolute;</span><br><span class="line">        <span class="attribute">top</span>: (<span class="variable">@width</span>*<span class="number">2</span> - <span class="variable">@width</span>*<span class="function">sqrt</span>(<span class="number">2</span>))/<span class="number">2</span>;</span><br><span class="line">        <span class="attribute">left</span>: (<span class="variable">@width</span>*<span class="number">2</span> - <span class="variable">@width</span>*<span class="function">sqrt</span>(<span class="number">2</span>))/<span class="number">2</span>;</span><br><span class="line">        </span><br><span class="line">        <span class="attribute">-webkit-transform</span>: <span class="function">rotate</span>(<span class="number">45deg</span>);</span><br><span class="line">        <span class="attribute">-webkit-transform-origin</span>: <span class="number">50%</span> <span class="number">50%</span>;</span><br><span class="line">        <span class="attribute">transform</span>: <span class="function">rotate</span>(<span class="number">45deg</span>);</span><br><span class="line">        <span class="attribute">transform-origin</span>: <span class="number">50%</span> <span class="number">50%</span>;</span><br><span class="line">        <span class="comment">// border-top-left-radius: 3px;</span></span><br><span class="line">        <span class="comment">// border-bottom-right-radius: 3px;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="attribute">-webkit-transform-origin</span>:<span class="number">50%</span> <span class="number">0%</span>;</span><br><span class="line">    <span class="attribute">-webkit-transform</span>:<span class="function">scaleY</span>(<span class="function">unit</span>(<span class="variable">@height</span>/(<span class="number">2</span>*<span class="variable">@width</span>)));</span><br><span class="line">    <span class="attribute">transform-origin</span>:<span class="number">50%</span> <span class="number">0%</span>;</span><br><span class="line">    <span class="attribute">transform</span>:<span class="function">scaleY</span>(<span class="function">unit</span>(<span class="variable">@height</span>/(<span class="number">2</span>*<span class="variable">@width</span>)));</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     <summary type="html">
     <![CDATA[<p>左箭头</p>
 <figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre]]>
@@ -247,7 +253,7 @@
     <link href="http://yoursite.com/2015/11/23/less%E5%9B%BE%E6%A0%87%E8%AE%B2%E8%A7%A3/"/>
     <id>http://yoursite.com/2015/11/23/less图标讲解/</id>
     <published>2015-11-23T11:59:39.000Z</published>
-    <updated>2015-11-23T12:02:24.000Z</updated>
+    <updated>2015-12-14T03:24:30.105Z</updated>
     <content type="html"><![CDATA[<p>less图标库是 使用less函数写的一些简单的图标。可以传入参数控制图标的颜色，大小等属性。</p>
 ]]></content>
     <summary type="html">
@@ -264,10 +270,10 @@
     <link href="http://yoursite.com/2015/11/23/%E5%8A%A0%E5%8F%B7%E6%8C%89%E9%92%AE/"/>
     <id>http://yoursite.com/2015/11/23/加号按钮/</id>
     <published>2015-11-23T09:34:17.000Z</published>
-    <updated>2015-11-23T12:28:19.000Z</updated>
+    <updated>2015-12-14T03:24:30.106Z</updated>
     <content type="html"><![CDATA[<p>按钮加号</p>
 <figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.ico-add</span>(<span class="variable">@size</span>, <span class="variable">@bg</span>, <span class="variable">@inner</span>)</span><br></pre></td></tr></table></figure>
-<h2 id="参数">参数</h2><table>
+<h2 id="u53C2_u6570"><a href="#u53C2_u6570" class="headerlink" title="参数"></a>参数</h2><table>
 <thead>
 <tr>
 <th style="text-align:center">参数名</th>
@@ -289,8 +295,8 @@
 </tr>
 </tbody>
 </table>
-<h2 id="demo">demo</h2><h3 id="代码">代码</h3><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.add-btn</span> &#123;</span><br><span class="line">    <span class="attribute">margin-top</span>: -<span class="number">15px</span>;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">45px</span>;</span><br><span class="line">    <span class="class">.ico-add</span>(<span class="number">30px</span>, gray, white);</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="效果">效果</h3><p><i class="demo"></i></p>
+<h2 id="demo"><a href="#demo" class="headerlink" title="demo"></a>demo</h2><h3 id="u4EE3_u7801"><a href="#u4EE3_u7801" class="headerlink" title="代码"></a>代码</h3><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.add-btn</span> &#123;</span><br><span class="line">    <span class="attribute">margin-top</span>: -<span class="number">15px</span>;</span><br><span class="line">    <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">right</span>: <span class="number">45px</span>;</span><br><span class="line">    <span class="class">.ico-add</span>(<span class="number">30px</span>, gray, white);</span><br><span class="line">    <span class="attribute">position</span>: absolute;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="u6548_u679C"><a href="#u6548_u679C" class="headerlink" title="效果"></a>效果</h3><p><i class="demo"></i></p>
 <style type="text/css">
     .demo {
       margin: 0.83333333rem;
@@ -329,7 +335,7 @@
 </style>
 
 
-<h2 id="源代码">源代码</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.ico-add</span>(<span class="variable">@size</span>, <span class="variable">@bg</span>, <span class="variable">@inner</span>) &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="variable">@size</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="variable">@size</span>;</span><br><span class="line">    <span class="variable">@barW:</span> <span class="variable">@size</span>*(<span class="number">3</span>/<span class="number">28</span>);</span><br><span class="line">    <span class="variable">@barH:</span> <span class="variable">@size</span>*(<span class="number">16</span>/<span class="number">28</span>);</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="variable">@bg</span>;</span><br><span class="line">    <span class="keyword">&amp;</span><span class="pseudo">:after</span> &#123;</span><br><span class="line">        <span class="attribute">content</span>: <span class="string">''</span>;</span><br><span class="line">        <span class="attribute">display</span>: block;</span><br><span class="line">        <span class="attribute">width</span>: <span class="variable">@barW</span>;</span><br><span class="line">        <span class="attribute">height</span>: <span class="variable">@barH</span>;</span><br><span class="line">        <span class="attribute">margin-top</span>: -<span class="variable">@barH</span>/<span class="number">2</span>;</span><br><span class="line">        <span class="attribute">margin-left</span>: -<span class="variable">@barW</span>/<span class="number">2</span>;</span><br><span class="line">        <span class="attribute">position</span>: absolute;</span><br><span class="line">        <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">        <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">        <span class="attribute">background-color</span>: <span class="variable">@inner</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">&amp;</span><span class="pseudo">:before</span> &#123;</span><br><span class="line">        <span class="attribute">content</span>: <span class="string">''</span>;</span><br><span class="line">        <span class="attribute">display</span>: block;</span><br><span class="line">        <span class="attribute">width</span>: <span class="variable">@barH</span>;</span><br><span class="line">        <span class="attribute">height</span>: <span class="variable">@barW</span>;</span><br><span class="line">        <span class="attribute">margin-top</span>: -<span class="variable">@barW</span>/<span class="number">2</span>;</span><br><span class="line">        <span class="attribute">margin-left</span>: -<span class="variable">@barH</span>/<span class="number">2</span>;</span><br><span class="line">        <span class="attribute">position</span>: absolute;</span><br><span class="line">        <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">        <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">        <span class="attribute">background-color</span>: <span class="variable">@inner</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+<h2 id="u6E90_u4EE3_u7801"><a href="#u6E90_u4EE3_u7801" class="headerlink" title="源代码"></a>源代码</h2><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.ico-add</span>(<span class="variable">@size</span>, <span class="variable">@bg</span>, <span class="variable">@inner</span>) &#123;</span><br><span class="line">    <span class="attribute">display</span>: inline-block;</span><br><span class="line">    <span class="attribute">border-radius</span>: <span class="number">50%</span>;</span><br><span class="line">    <span class="attribute">width</span>: <span class="variable">@size</span>;</span><br><span class="line">    <span class="attribute">height</span>: <span class="variable">@size</span>;</span><br><span class="line">    <span class="variable">@barW:</span> <span class="variable">@size</span>*(<span class="number">3</span>/<span class="number">28</span>);</span><br><span class="line">    <span class="variable">@barH:</span> <span class="variable">@size</span>*(<span class="number">16</span>/<span class="number">28</span>);</span><br><span class="line">    <span class="attribute">position</span>: relative;</span><br><span class="line">    <span class="attribute">background-color</span>: <span class="variable">@bg</span>;</span><br><span class="line">    <span class="keyword">&amp;</span><span class="pseudo">:after</span> &#123;</span><br><span class="line">        <span class="attribute">content</span>: <span class="string">''</span>;</span><br><span class="line">        <span class="attribute">display</span>: block;</span><br><span class="line">        <span class="attribute">width</span>: <span class="variable">@barW</span>;</span><br><span class="line">        <span class="attribute">height</span>: <span class="variable">@barH</span>;</span><br><span class="line">        <span class="attribute">margin-top</span>: -<span class="variable">@barH</span>/<span class="number">2</span>;</span><br><span class="line">        <span class="attribute">margin-left</span>: -<span class="variable">@barW</span>/<span class="number">2</span>;</span><br><span class="line">        <span class="attribute">position</span>: absolute;</span><br><span class="line">        <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">        <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">        <span class="attribute">background-color</span>: <span class="variable">@inner</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">&amp;</span><span class="pseudo">:before</span> &#123;</span><br><span class="line">        <span class="attribute">content</span>: <span class="string">''</span>;</span><br><span class="line">        <span class="attribute">display</span>: block;</span><br><span class="line">        <span class="attribute">width</span>: <span class="variable">@barH</span>;</span><br><span class="line">        <span class="attribute">height</span>: <span class="variable">@barW</span>;</span><br><span class="line">        <span class="attribute">margin-top</span>: -<span class="variable">@barW</span>/<span class="number">2</span>;</span><br><span class="line">        <span class="attribute">margin-left</span>: -<span class="variable">@barH</span>/<span class="number">2</span>;</span><br><span class="line">        <span class="attribute">position</span>: absolute;</span><br><span class="line">        <span class="attribute">left</span>: <span class="number">50%</span>;</span><br><span class="line">        <span class="attribute">top</span>: <span class="number">50%</span>;</span><br><span class="line">        <span class="attribute">background-color</span>: <span class="variable">@inner</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     <summary type="html">
     <![CDATA[<p>按钮加号</p>
 <figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pr]]>
@@ -344,22 +350,22 @@
     <link href="http://yoursite.com/2015/11/18/javascript%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83/"/>
     <id>http://yoursite.com/2015/11/18/javascript代码规范/</id>
     <published>2015-11-18T01:26:36.000Z</published>
-    <updated>2015-12-03T14:39:38.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="使用严格模式">使用严格模式</h2><p>使用严格模式会对代码进行更严格的检测，避免一些意想不到错误，同时也是为将来的js版本做兼容。严格模式的规则可以参考<a href="http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html" target="_blank" rel="external">Javascript 严格模式详解</a>.</p>
+    <updated>2015-12-14T03:24:30.104Z</updated>
+    <content type="html"><![CDATA[<h2 id="u4F7F_u7528_u4E25_u683C_u6A21_u5F0F"><a href="#u4F7F_u7528_u4E25_u683C_u6A21_u5F0F" class="headerlink" title="使用严格模式"></a>使用严格模式</h2><p>使用严格模式会对代码进行更严格的检测，避免一些意想不到错误，同时也是为将来的js版本做兼容。严格模式的规则可以参考<a href="http://www.ruanyifeng.com/blog/2013/01/javascript_strict_mode.html" target="_blank" rel="external">Javascript 严格模式详解</a>.</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">(<span class="function"><span class="keyword">function</span>(<span class="params">$</span>)</span>&#123;</span><br><span class="line"><span class="pi">    'use strict'</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//do some thing</span></span><br><span class="line"></span><br><span class="line">&#125;(jQuery))</span><br></pre></td></tr></table></figure>
 <p>注意：前外不要在全局使用严格模式，这样会对第三方插件产生影响，产生错误</p>
-<h2 id="变量的声明">变量的声明</h2><p>变量的声明请提前到模块或者函数的开头，并且使用下面的格式。</p>
+<h2 id="u53D8_u91CF_u7684_u58F0_u660E"><a href="#u53D8_u91CF_u7684_u58F0_u660E" class="headerlink" title="变量的声明"></a>变量的声明</h2><p>变量的声明请提前到模块或者函数的开头，并且使用下面的格式。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> a = <span class="number">1</span>,</span><br><span class="line">        b = <span class="number">3</span>,</span><br><span class="line">        c = <span class="number">5</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// do some thing</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="判断相等">判断相等</h2><p>判断相等的时候，请使用严格相等符号 <code>===</code> 而不是 <code>==</code></p>
-<h2 id="分号的使用">分号的使用</h2><p>在每一个表达式结束的时候加上分号<br>并不是所有的语句都是表达式，下面举例说明</p>
+<h2 id="u5224_u65AD_u76F8_u7B49"><a href="#u5224_u65AD_u76F8_u7B49" class="headerlink" title="判断相等"></a>判断相等</h2><p>判断相等的时候，请使用严格相等符号 <code>===</code> 而不是 <code>==</code></p>
+<h2 id="u5206_u53F7_u7684_u4F7F_u7528"><a href="#u5206_u53F7_u7684_u4F7F_u7528" class="headerlink" title="分号的使用"></a>分号的使用</h2><p>在每一个表达式结束的时候加上分号<br>并不是所有的语句都是表达式，下面举例说明</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125; <span class="comment">//函数声明，不是表达式，无需分号</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> getName = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;; <span class="comment">//函数表达式，请加上分号</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(<span class="literal">true</span>)&#123;</span><br><span class="line"></span><br><span class="line">&#125; <span class="comment">//这也不是表达式，当然不用加分号</span></span><br></pre></td></tr></table></figure>
-<h2 id="循环">循环</h2><h3 id="for-in循环">for-in循环</h3><p>在使用for-in循环的时候，请注意两点</p>
+<h2 id="u5FAA_u73AF"><a href="#u5FAA_u73AF" class="headerlink" title="循环"></a>循环</h2><h3 id="for-in_u5FAA_u73AF"><a href="#for-in_u5FAA_u73AF" class="headerlink" title="for-in循环"></a>for-in循环</h3><p>在使用for-in循环的时候，请注意两点</p>
 <ol>
 <li>不要使用for-in循环遍历数组元素</li>
 <li>在使用for-in遍历对象的时候，请判断属性是否来自继承</li>
 </ol>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">var</span> obj = &#123;x:<span class="number">1</span>,y:<span class="number">2</span>,z:<span class="number">3</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> e <span class="keyword">in</span> obj)&#123;</span><br><span class="line">    <span class="keyword">if</span>(!obj.hasOwnProperty(e)) <span class="keyword">continue</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// do something to e</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="数组的遍历">数组的遍历</h3><p>如果要对数组进行遍历，可以使用传统的 for 循环，或者es5提供的数组遍历方法。</p>
+<h3 id="u6570_u7EC4_u7684_u904D_u5386"><a href="#u6570_u7EC4_u7684_u904D_u5386" class="headerlink" title="数组的遍历"></a>数组的遍历</h3><p>如果要对数组进行遍历，可以使用传统的 for 循环，或者es5提供的数组遍历方法。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// 传统的 for 方法</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>];</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">0</span>, e = arr[i]; i &lt; arr.length; i++)&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// do something to e</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>es5的数组操作方法</p>
 <ul>
@@ -371,18 +377,18 @@
 <li>reduce</li>
 </ul>
 <p>使用这些方法的时候请注意<a href="http://caniuse.com/#search=forEach" target="_blank" rel="external">兼容性</a></p>
-<h2 id="引号的使用">引号的使用</h2><p>在javascript中使用单引号，而在html标签中使用双引号</p>
+<h2 id="u5F15_u53F7_u7684_u4F7F_u7528"><a href="#u5F15_u53F7_u7684_u4F7F_u7528" class="headerlink" title="引号的使用"></a>引号的使用</h2><p>在javascript中使用单引号，而在html标签中使用双引号</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> str = <span class="string">'this is string'</span>;</span><br></pre></td></tr></table></figure>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"footer"</span>&gt;</span> <span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="模块化">模块化</h2><p>目前使用的模块化的方式是两种，一种是模板模式，一种是 browserify.</p>
+<h2 id="u6A21_u5757_u5316"><a href="#u6A21_u5757_u5316" class="headerlink" title="模块化"></a>模块化</h2><p>目前使用的模块化的方式是两种，一种是模板模式，一种是 browserify.</p>
 <p>既然做了模块化，需要做到一个文件放一个模块。</p>
-<h3 id="模板模式">模板模式</h3><p>使用一个立即执行函数对每一段代码进行封装，避免变量暴露在全局</p>
+<h3 id="u6A21_u677F_u6A21_u5F0F"><a href="#u6A21_u677F_u6A21_u5F0F" class="headerlink" title="模板模式"></a>模板模式</h3><p>使用一个立即执行函数对每一段代码进行封装，避免变量暴露在全局</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * [description]</span><br><span class="line"> * </span><br><span class="line"> * @module [modulename]</span><br><span class="line"> * @author sumight</span><br><span class="line"> */</span></span><br><span class="line"></span><br><span class="line">(<span class="function"><span class="keyword">function</span>(<span class="params">$</span>)</span>&#123;</span><br><span class="line"><span class="pi">    'use strict'</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">var</span> Main = <span class="built_in">window</span>.Main = &#123;&#125;;</span><br><span class="line">        </span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * 模块的默认配置</span><br><span class="line">     */</span></span><br><span class="line">    Main.defaultCfg = &#123;</span><br><span class="line"></span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * 模块初始化</span><br><span class="line">     * </span><br><span class="line">     * @param  &#123;Object&#125; cfg 用户配置</span><br><span class="line">     */</span></span><br><span class="line">    Main.init = <span class="function"><span class="keyword">function</span>(<span class="params">cfg</span>)</span>&#123;</span><br><span class="line">        <span class="keyword">var</span> self = <span class="keyword">this</span>,</span><br><span class="line">            cfg = <span class="keyword">this</span>._cfg = $.extend(&#123;&#125;, self.defaultCfg, cfg);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// do something</span></span><br><span class="line">        </span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span><br><span class="line">     * 初始化事件</span><br><span class="line">     */</span></span><br><span class="line">    Main.initEvent = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">    &#125;;</span><br><span class="line">&#125;(jQuery));</span><br></pre></td></tr></table></figure>
-<h3 id="browserify">browserify</h3><p>采用nodejs的模块化方式写前端代码。</p>
+<h3 id="browserify"><a href="#browserify" class="headerlink" title="browserify"></a>browserify</h3><p>采用nodejs的模块化方式写前端代码。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * [description]</span><br><span class="line"> * </span><br><span class="line"> * @module [modulename]</span><br><span class="line"> * @author sumight</span><br><span class="line"> */</span></span><br><span class="line"><span class="pi"></span><br><span class="line">'use strict'</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * 模块依赖</span><br><span class="line"> */</span></span><br><span class="line"><span class="keyword">var</span> $ = <span class="built_in">require</span>(<span class="string">"jQuery"</span>),</span><br><span class="line">    util = <span class="built_in">require</span>(<span class="string">"util"</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * 导出模块</span><br><span class="line"> * 如果模块需要暴露给html</span><br><span class="line"> * 就这样写</span><br><span class="line"> *  var Main = window.Main = exports;</span><br><span class="line"> */</span></span><br><span class="line"><span class="keyword">var</span> Main = exports;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * 模块的默认配置</span><br><span class="line"> */</span></span><br><span class="line">Main.defaultCfg = &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * 模块初始化</span><br><span class="line"> * </span><br><span class="line"> * @param  &#123;Object&#125; cfg 用户配置</span><br><span class="line"> */</span></span><br><span class="line">Main.init = <span class="function"><span class="keyword">function</span>(<span class="params">cfg</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> self = <span class="keyword">this</span>,</span><br><span class="line">        cfg = <span class="keyword">this</span>._cfg = $.extend(&#123;&#125;, self.defaultCfg, cfg);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// do something</span></span><br><span class="line">    </span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * 初始化事件</span><br><span class="line"> */</span></span><br><span class="line">Main.initEvent = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="使用严格模式">使用严格模式</h2><p>使用严格模式会对代码进行更严格的检测，避免一些意想不到错误，同时也是为将来的js版本做兼容。严格模式的规则可以参考<a href="http://www.ruanyifeng.com/blog/2013/01/javas]]>
+    <![CDATA[<h2 id="u4F7F_u7528_u4E25_u683C_u6A21_u5F0F"><a href="#u4F7F_u7528_u4E25_u683C_u6A21_u5F0F" class="headerlink" title="使用严格模式"></a>使用严格模式</h2]]>
     </summary>
     
       <category term="前端规范" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E8%A7%84%E8%8C%83/"/>
@@ -392,110 +398,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[辨析 Sass 中的 Map 和 List]]></title>
-    <link href="http://yoursite.com/2015/10/21/c/"/>
-    <id>http://yoursite.com/2015/10/21/c/</id>
-    <published>2015-10-21T02:34:12.000Z</published>
-    <updated>2015-12-03T01:25:31.000Z</updated>
-    <content type="html"><![CDATA[<p>如果你使用过 Sass 3.3 之前的版本，那么你一定对那段时光颇有感触，那时候没有现如今这么好的条件，那时候的 Map 还只能用多重列表（lists of list）来模拟。多重列表可以实现复杂数据的嵌套定义，但却不是以键值对的形式实现的，所有当我们需要获取其中特定的某一项时就会比较麻烦。Map 这种数据类型天生就是基于键值对的形式，非常便于组织数据。</p>
-<p>自从可以使用 Map 之后，开发者们开始毫无顾忌地定义 Map 存储数据，比如断点宽度、颜色值、栅格布局等等响应式排版的细节，都被一股脑的塞进了 Map 中。</p>
-<p>那么，有了 Map 之后，我们还有必要使用 List 吗？可能某些人会觉得为了保持向后兼容应该继续使用多重列表模拟 Map，因为可能有些开发者仍然在使用老版本的 Sass 编译器，但实际上，这是多此一举了，Sass 的版本通常由 <code>package.json</code> 或者其他同类型的项目配置文件所控制，往往只需一条命令（<code>gem update sass</code>）即可更新 Sass 的版本，因此基本上无需考虑对老版本的兼容问题。</p>
-<a id="more"></a>
-<p>使用多重列表替代 Map 的优势之一就是减少代码量。下面让我们来比较一下多种列表和 Map 的语法结构以及遍历方式。</p>
-<h2 id="测试表格">测试表格</h2><table>
-<thead>
-<tr>
-<th>Variable</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>site</code></td>
-<td>Sitewide information.</td>
-</tr>
-<tr>
-<td><code>page</code></td>
-<td>Page specific information and custom variables set in front-matter.</td>
-</tr>
-<tr>
-<td><code>config</code></td>
-<td>Site configuration</td>
-</tr>
-<tr>
-<td><code>theme</code></td>
-<td>Theme configuration. Inherits from site configuration.</td>
-</tr>
-<tr>
-<td><code>_</code> (single underscore)</td>
-<td><a href="http://lodash.com/" target="_blank" rel="external">Lodash</a> library</td>
-</tr>
-<tr>
-<td><code>path</code></td>
-<td>Path of current page</td>
-</tr>
-<tr>
-<td><code>url</code></td>
-<td>Full URL of current page</td>
-</tr>
-<tr>
-<td><code>env</code></td>
-<td>Environment variables</td>
-</tr>
-</tbody>
-</table>
-<h2 id="语法比较">语法比较</h2><div class="note"><br>    <h5>测试标题</h5><br>    <p>在下面的示例中，我创建了一个用于控制响应式布局的数据，该数据一共有四个断点，每一个断点都包含了 <code>min-width</code>、<code>max-width</code>、<code>font-size</code> 和 <code>line-height</code> 四个样式。</p><br></div>
-
-<h4 id="Map_语法">Map 语法</h4><p>下面就是使用 Map 存储的数据，具体来说，该 Map 中首先存储了四个用于标识断点的 Key，相对应的是保存具体属性值得 Value。虽然这种形式可读性更高，但是总体代码量却高达 26 行 450 个字符。</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$breakpoint-map: (&#10;&#160; &#160; small: (&#10;&#160; &#160; &#160; &#160; min-width: null,&#10;&#160; &#160; &#160; &#160; max-width: 479px,&#10;&#160; &#160; &#160; &#160; base-font: 16px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.3&#10;&#160; &#160; ),&#10;&#160; &#160; medium: (&#10;&#160; &#160; &#160; &#160; min-width: 480px,&#10;&#160; &#160; &#160; &#160; max-width: 959px,&#10;&#160; &#160; &#160; &#160; base-font: 18px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.414&#10;&#160; &#160; ),&#10;&#160; &#160; large: (&#10;&#160; &#160; &#160; &#160; min-width: 960px,&#10;&#160; &#160; &#160; &#160; max-width: 1099px,&#10;&#160; &#160; &#160; &#160; base-font: 18px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.5&#10;&#160; &#160; ),&#10;&#160; &#160; xlarge: (&#10;&#160; &#160; &#160; &#160; min-width: 1100px,&#10;&#160; &#160; &#160; &#160; max-width: null,&#10;&#160; &#160; &#160; &#160; base-font: 21px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.618&#10;&#160; &#160; )&#10;);</span><br></pre></td></tr></table></figure>
-<h4 id="多重列表语法">多重列表语法</h4><p>下面的多重列表存储了和上面 Map 同样的数据，在多重列表中没有 Key-Value 的对应关系，这意味着要想找到特定的值，必须使用遍历或 <code>nth()</code> 的方式来实现了。从另一个角度来看，多种列表又比 Map 的代码量小得多，总共只有六行 180 个字符。</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$breakpoint-list: (&#10;&#160; &#160; (small, null, 479px, 16px, 1.3),&#10;&#160; &#160; (medium, 480px, 959px, 18px, 1.414),&#10;&#160; &#160; (large, 960px, 1099px, 18px, 1.5),&#10;&#160; &#160; (xlarge, 1100px, null, 21px, 1.618)&#10;);</span><br></pre></td></tr></table></figure>
-<h2 id="遍历比较">遍历比较</h2><div class="note info"><br>    <h5>测试标题</h5><br>    <p>从上面简单地比较中可以粗略的看出，多种列表的代码量明显少于 Map。但是，如果我们需要遍历这些值得话，复杂度又是怎样的呢？</p><br></div>
-
-<h4 id="遍历_Map">遍历 Map</h4><p>我们可以使用如下的代码遍历 Map：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@each $label, $map in $breakpoint-map &#123;&#125;</span><br></pre></td></tr></table></figure>
-<p>这里的变量 <code>$label</code> 和 <code>$map</code> 会随着对 <code>$breakpoint-map</code> 的遍历被动态地赋值，<code>$label</code> 将会被赋值为 <code>$breakpoint-map</code> 的 Key，而 <code>$map</code> 会被赋值为 <code>$breakpoint-map</code> 的 Value。为了在遍历过程中获取特定值，我们就需要使用 Sass 原生的 <code>map-get()</code> 函数，使用该函数需要传入两个参数：Map 的名字和求取的 Key，最后返回该 Map 中匹配该 Key 的 Value。</p>
-<p>具体的做法就是使用 <code>@each</code> 遍历 Map，然后使用 <code>map-get()</code> 获取特定值，最终只需要六行代码 220 个字符即可完成整个遍历：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@each $label, $map in $breakpoint-map &#123;&#10;&#160; &#160; $min-width: map-get($map, min-width);&#10;&#160; &#160; $max-width: map-get($map, max-width);&#10;&#160; &#160; $base-font: map-get($map, base-font);&#10;&#160; &#160; $vertical-rhythm: map-get($map, vertical-rhythm);&#10;&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="遍历多重列表">遍历多重列表</h4><p>遍历多重列表不必像遍历 Map 一样动态获取到 Map 后再使用 <code>map-get()</code> 函数取特定值，直接遍历一遍即可获得特定值。</p>
-<p>因为多种列表内层的每一个列表结构相同，都有按照相同顺序排列的五个值，所以我们可以持续遍历每个值并赋值给特定的变量。无需调用 <code>map-get()</code>，直接引用这些变量即可进行赋值等裸机操作。最终遍历多重列表只使用了两行代码 100 个字符：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@each $label, $min-width, $max-width, $base-font, $vertical-rhythm in $breakpoint-list &#123;&#10;&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="慎用多重列表">慎用多重列表</h2><div class="note warning"><br>    <h5>测试标题</h5><br>    <p>经过上述的比对，看起来多重列表各方面都在碾压 Map，实则不然，Sass 中添加 Map 有一条非常重要的原因就是：Key-Value 的映射关系。</p><br></div>
-
-<h4 id="遗漏键值">遗漏键值</h4><p>如果要使用多重列表，那么就必须保证自己非常熟悉多重列表内部的每一项所代表的意义。下面我们举个例子，来看看遗漏了某些值的情况：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$breakpoint-list: (&#10;&#160; &#160; (small, null, 479px, 16px, 1.3),&#10;&#160; &#160; (medium, 480px, 959px, 18px, 1.414),&#10;&#160; &#160; (large, 960px, 1099px, 18px, 1.5),&#10;&#160; &#160; (xlarge, 1100px, 21px, 1.618)&#10;);&#10;&#10;p &#123;&#10;&#160; &#160; @each $label, $min-width, $max-width, $base-font, $vertical-rhythm in $breakpoint-list &#123;&#10;&#160; &#160; &#160; &#160; @if $min-width &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; @include breakpoint( $min-width ) &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; font-size: $base-font;&#10;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; line-height: $vertical-rhythm;&#10;&#160; &#160; &#160; &#160; &#160; &#160; &#125;&#10;&#160; &#160; &#160; &#160; &#125; @else &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; font-size: $base-font;&#10;&#160; &#160; &#160; &#160; &#160; &#160; line-height: $vertical-rhythm;&#10;&#160; &#160; &#160; &#160; &#125;&#10;&#160; &#160; &#125;&#10;&#125;</span><br></pre></td></tr></table></figure>
-<p>当我们尝试运行这段代码时，结果肯定是错误地，因为在 <code>$breakpoint-list</code> 的最后一行，<code>xlarge</code> 被赋值给了 <code>$label</code>，<code>1100px</code> 被赋值给了 <code>$min-width</code>，<code>21px</code> 被赋值给了 <code>$max-width</code>, <code>1.618</code> 被赋值给了 <code>$base-font</code>，最终导致 <code>$vertical-rhythm</code> 没有被赋值，结果就是 <code>font-size</code> 的属性值是错的，<code>line-height</code> 的属性值是空的。此外，Sass 还不会对此抛出错误，导致我们无从知晓错误所在。</p>
-<p>如果我们使用 Map 来代替这里的多重列表，那么使用 <code>map-get()</code> 函数即使遇见空值也能正确获得想要的结果。这就是值得我们慎重思考的地方：多种列表虽然简单快速，但是丧失了 Map 中的容错能力和快速取值能力。</p>
-<h4 id="查找特定列表">查找特定列表</h4><p>在多重列表中查找特定列表简直就是一种折磨。如果使用 Map，那么配合 <code>map-get()</code> 函数可以快速定位到特定子 Map：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$medium-map: map-get($maps, medium);</span><br></pre></td></tr></table></figure>
-<p>但如果要获取多种列表 <code>medium</code> 列表，麻烦可就大了：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@function get-list($label) &#123;&#10;&#160; &#160; @each $list in $breakpoint-list &#123;&#10;&#160; &#160; &#160; &#160; @if nth($list, 1) == $label &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; @return $list;&#10;&#160; &#160; &#160; &#160; &#125;&#10;&#160; &#160; &#125;&#10;&#160; &#160; @return null;&#10;&#125;&#10;$medium-list: get-list(medium);</span><br></pre></td></tr></table></figure>
-<p>这段代码的逻辑就是遍历整个多重列表，知道找到第一个匹配项，然后返回，如果一直没有找到匹配项，就一直遍历到末尾，然后返回 <code>null</code>。这实际上就是手工实现了 <code>map-get()</code> 的逻辑。</p>
-<h4 id="缺少原生的_Map_函数">缺少原生的 Map 函数</h4><p>Sass 提供了诸多的原生函数用于处理 Map 数据类型，但是多重列表是没法调用这些函数的，比如，使用 <code>map-merge()</code> 可以合并两个 Map，如果两个 Map 有相同的值，则取第二个 Map 的值为最终值。当然你也可以在多重列表中使用 <code>join()</code> 或 <code>append()</code> 来增加新列表，从而模拟出 <code>map-merge()</code> 的效果。</p>
-<p>另一个实用的 Map 函数就是 <code>map-has-key()</code>，对于依赖 <code>map-get()</code> 的自定义函数来说，<code>map-has-key()</code> 可以用来验证特定的 Key 是否存在。但在列表中是完全没有相似的方法。</p>
-<h2 id="总结">总结</h2><div class="note unreleased"><br>    <h5>Test Title</h5><br>    <p>相比起列表来说，Key-Value 模型的 Map 显然更有力量，原生的 Sass Map 函数更是提供了强力的数据查找和验证工具。</p><br></div>
-
-<p>虽然多重列表代码量少，但并不能像 Map 一样进行错误检查或验证参数。在大多数时候，相比较多重列表而言，我相信 Map 是更好的选择。如果是为了更少的代码量和其他简单地调用，那么我偶尔会用用多重列表，但是从项目的宏观控制和数据存储方面显然更优秀。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>如果你使用过 Sass 3.3 之前的版本，那么你一定对那段时光颇有感触，那时候没有现如今这么好的条件，那时候的 Map 还只能用多重列表（lists of list）来模拟。多重列表可以实现复杂数据的嵌套定义，但却不是以键值对的形式实现的，所有当我们需要获取其中特定的某一项时就会比较麻烦。Map 这种数据类型天生就是基于键值对的形式，非常便于组织数据。</p>
-<p>自从可以使用 Map 之后，开发者们开始毫无顾忌地定义 Map 存储数据，比如断点宽度、颜色值、栅格布局等等响应式排版的细节，都被一股脑的塞进了 Map 中。</p>
-<p>那么，有了 Map 之后，我们还有必要使用 List 吗？可能某些人会觉得为了保持向后兼容应该继续使用多重列表模拟 Map，因为可能有些开发者仍然在使用老版本的 Sass 编译器，但实际上，这是多此一举了，Sass 的版本通常由 <code>package.json</code> 或者其他同类型的项目配置文件所控制，往往只需一条命令（<code>gem update sass</code>）即可更新 Sass 的版本，因此基本上无需考虑对老版本的兼容问题。</p>]]>
-    
-    </summary>
-    
-      <category term="abc" scheme="http://yoursite.com/tags/abc/"/>
-    
-      <category term="other" scheme="http://yoursite.com/categories/other/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[jquery]]></title>
     <link href="http://yoursite.com/2015/10/21/b/"/>
     <id>http://yoursite.com/2015/10/21/b/</id>
     <published>2015-10-21T02:34:12.000Z</published>
-    <updated>2015-12-03T01:25:09.000Z</updated>
+    <updated>2015-12-14T03:24:30.102Z</updated>
     <content type="html"><![CDATA[<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    "<span class="attribute">title</span>":<span class="value"><span class="string">"asdf"</span></span><br><span class="line"></span>&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ab</span> </span>&#123;</span><br><span class="line">    a:<span class="number">1</span>,</span><br><span class="line">    c:<span class="number">2</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">"#box"</span>).goto();</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">asdl</span>(<span class="params">sdf</span>)</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log();</span><br><span class="line">    <span class="built_in">document</span>.getElementById();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -514,16 +421,16 @@
   
   <entry>
     <title><![CDATA[辨析 Sass 中的 Map 和 List]]></title>
-    <link href="http://yoursite.com/2015/10/21/a/"/>
-    <id>http://yoursite.com/2015/10/21/a/</id>
+    <link href="http://yoursite.com/2015/10/21/c/"/>
+    <id>http://yoursite.com/2015/10/21/c/</id>
     <published>2015-10-21T02:34:12.000Z</published>
-    <updated>2015-11-23T14:45:15.000Z</updated>
+    <updated>2015-12-14T03:24:30.102Z</updated>
     <content type="html"><![CDATA[<p>如果你使用过 Sass 3.3 之前的版本，那么你一定对那段时光颇有感触，那时候没有现如今这么好的条件，那时候的 Map 还只能用多重列表（lists of list）来模拟。多重列表可以实现复杂数据的嵌套定义，但却不是以键值对的形式实现的，所有当我们需要获取其中特定的某一项时就会比较麻烦。Map 这种数据类型天生就是基于键值对的形式，非常便于组织数据。</p>
 <p>自从可以使用 Map 之后，开发者们开始毫无顾忌地定义 Map 存储数据，比如断点宽度、颜色值、栅格布局等等响应式排版的细节，都被一股脑的塞进了 Map 中。</p>
 <p>那么，有了 Map 之后，我们还有必要使用 List 吗？可能某些人会觉得为了保持向后兼容应该继续使用多重列表模拟 Map，因为可能有些开发者仍然在使用老版本的 Sass 编译器，但实际上，这是多此一举了，Sass 的版本通常由 <code>package.json</code> 或者其他同类型的项目配置文件所控制，往往只需一条命令（<code>gem update sass</code>）即可更新 Sass 的版本，因此基本上无需考虑对老版本的兼容问题。</p>
 <a id="more"></a>
 <p>使用多重列表替代 Map 的优势之一就是减少代码量。下面让我们来比较一下多种列表和 Map 的语法结构以及遍历方式。</p>
-<h2 id="测试表格">测试表格</h2><table>
+<h2 id="u6D4B_u8BD5_u8868_u683C"><a href="#u6D4B_u8BD5_u8868_u683C" class="headerlink" title="测试表格"></a>测试表格</h2><table>
 <thead>
 <tr>
 <th>Variable</th>
@@ -565,36 +472,135 @@
 </tr>
 </tbody>
 </table>
-<h2 id="语法比较">语法比较</h2><div class="note"><br>    <h5>测试标题</h5><br>    <p>在下面的示例中，我创建了一个用于控制响应式布局的数据，该数据一共有四个断点，每一个断点都包含了 <code>min-width</code>、<code>max-width</code>、<code>font-size</code> 和 <code>line-height</code> 四个样式。</p><br></div>
+<h2 id="u8BED_u6CD5_u6BD4_u8F83"><a href="#u8BED_u6CD5_u6BD4_u8F83" class="headerlink" title="语法比较"></a>语法比较</h2><div class="note"><br>    <h5>测试标题</h5><br>    <p>在下面的示例中，我创建了一个用于控制响应式布局的数据，该数据一共有四个断点，每一个断点都包含了 <code>min-width</code>、<code>max-width</code>、<code>font-size</code> 和 <code>line-height</code> 四个样式。</p><br></div>
 
-<h4 id="Map_语法">Map 语法</h4><p>下面就是使用 Map 存储的数据，具体来说，该 Map 中首先存储了四个用于标识断点的 Key，相对应的是保存具体属性值得 Value。虽然这种形式可读性更高，但是总体代码量却高达 26 行 450 个字符。</p>
+<h4 id="Map__u8BED_u6CD5"><a href="#Map__u8BED_u6CD5" class="headerlink" title="Map 语法"></a>Map 语法</h4><p>下面就是使用 Map 存储的数据，具体来说，该 Map 中首先存储了四个用于标识断点的 Key，相对应的是保存具体属性值得 Value。虽然这种形式可读性更高，但是总体代码量却高达 26 行 450 个字符。</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$breakpoint-map: (&#10;&#160; &#160; small: (&#10;&#160; &#160; &#160; &#160; min-width: null,&#10;&#160; &#160; &#160; &#160; max-width: 479px,&#10;&#160; &#160; &#160; &#160; base-font: 16px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.3&#10;&#160; &#160; ),&#10;&#160; &#160; medium: (&#10;&#160; &#160; &#160; &#160; min-width: 480px,&#10;&#160; &#160; &#160; &#160; max-width: 959px,&#10;&#160; &#160; &#160; &#160; base-font: 18px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.414&#10;&#160; &#160; ),&#10;&#160; &#160; large: (&#10;&#160; &#160; &#160; &#160; min-width: 960px,&#10;&#160; &#160; &#160; &#160; max-width: 1099px,&#10;&#160; &#160; &#160; &#160; base-font: 18px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.5&#10;&#160; &#160; ),&#10;&#160; &#160; xlarge: (&#10;&#160; &#160; &#160; &#160; min-width: 1100px,&#10;&#160; &#160; &#160; &#160; max-width: null,&#10;&#160; &#160; &#160; &#160; base-font: 21px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.618&#10;&#160; &#160; )&#10;);</span><br></pre></td></tr></table></figure>
-<h4 id="多重列表语法">多重列表语法</h4><p>下面的多重列表存储了和上面 Map 同样的数据，在多重列表中没有 Key-Value 的对应关系，这意味着要想找到特定的值，必须使用遍历或 <code>nth()</code> 的方式来实现了。从另一个角度来看，多种列表又比 Map 的代码量小得多，总共只有六行 180 个字符。</p>
+<h4 id="u591A_u91CD_u5217_u8868_u8BED_u6CD5"><a href="#u591A_u91CD_u5217_u8868_u8BED_u6CD5" class="headerlink" title="多重列表语法"></a>多重列表语法</h4><p>下面的多重列表存储了和上面 Map 同样的数据，在多重列表中没有 Key-Value 的对应关系，这意味着要想找到特定的值，必须使用遍历或 <code>nth()</code> 的方式来实现了。从另一个角度来看，多种列表又比 Map 的代码量小得多，总共只有六行 180 个字符。</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$breakpoint-list: (&#10;&#160; &#160; (small, null, 479px, 16px, 1.3),&#10;&#160; &#160; (medium, 480px, 959px, 18px, 1.414),&#10;&#160; &#160; (large, 960px, 1099px, 18px, 1.5),&#10;&#160; &#160; (xlarge, 1100px, null, 21px, 1.618)&#10;);</span><br></pre></td></tr></table></figure>
-<h2 id="遍历比较">遍历比较</h2><div class="note info"><br>    <h5>测试标题</h5><br>    <p>从上面简单地比较中可以粗略的看出，多种列表的代码量明显少于 Map。但是，如果我们需要遍历这些值得话，复杂度又是怎样的呢？</p><br></div>
+<h2 id="u904D_u5386_u6BD4_u8F83"><a href="#u904D_u5386_u6BD4_u8F83" class="headerlink" title="遍历比较"></a>遍历比较</h2><div class="note info"><br>    <h5>测试标题</h5><br>    <p>从上面简单地比较中可以粗略的看出，多种列表的代码量明显少于 Map。但是，如果我们需要遍历这些值得话，复杂度又是怎样的呢？</p><br></div>
 
-<h4 id="遍历_Map">遍历 Map</h4><p>我们可以使用如下的代码遍历 Map：</p>
+<h4 id="u904D_u5386_Map"><a href="#u904D_u5386_Map" class="headerlink" title="遍历 Map"></a>遍历 Map</h4><p>我们可以使用如下的代码遍历 Map：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@each $label, $map in $breakpoint-map &#123;&#125;</span><br></pre></td></tr></table></figure>
 <p>这里的变量 <code>$label</code> 和 <code>$map</code> 会随着对 <code>$breakpoint-map</code> 的遍历被动态地赋值，<code>$label</code> 将会被赋值为 <code>$breakpoint-map</code> 的 Key，而 <code>$map</code> 会被赋值为 <code>$breakpoint-map</code> 的 Value。为了在遍历过程中获取特定值，我们就需要使用 Sass 原生的 <code>map-get()</code> 函数，使用该函数需要传入两个参数：Map 的名字和求取的 Key，最后返回该 Map 中匹配该 Key 的 Value。</p>
 <p>具体的做法就是使用 <code>@each</code> 遍历 Map，然后使用 <code>map-get()</code> 获取特定值，最终只需要六行代码 220 个字符即可完成整个遍历：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@each $label, $map in $breakpoint-map &#123;&#10;&#160; &#160; $min-width: map-get($map, min-width);&#10;&#160; &#160; $max-width: map-get($map, max-width);&#10;&#160; &#160; $base-font: map-get($map, base-font);&#10;&#160; &#160; $vertical-rhythm: map-get($map, vertical-rhythm);&#10;&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="遍历多重列表">遍历多重列表</h4><p>遍历多重列表不必像遍历 Map 一样动态获取到 Map 后再使用 <code>map-get()</code> 函数取特定值，直接遍历一遍即可获得特定值。</p>
+<h4 id="u904D_u5386_u591A_u91CD_u5217_u8868"><a href="#u904D_u5386_u591A_u91CD_u5217_u8868" class="headerlink" title="遍历多重列表"></a>遍历多重列表</h4><p>遍历多重列表不必像遍历 Map 一样动态获取到 Map 后再使用 <code>map-get()</code> 函数取特定值，直接遍历一遍即可获得特定值。</p>
 <p>因为多种列表内层的每一个列表结构相同，都有按照相同顺序排列的五个值，所以我们可以持续遍历每个值并赋值给特定的变量。无需调用 <code>map-get()</code>，直接引用这些变量即可进行赋值等裸机操作。最终遍历多重列表只使用了两行代码 100 个字符：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@each $label, $min-width, $max-width, $base-font, $vertical-rhythm in $breakpoint-list &#123;&#10;&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="慎用多重列表">慎用多重列表</h2><div class="note warning"><br>    <h5>测试标题</h5><br>    <p>经过上述的比对，看起来多重列表各方面都在碾压 Map，实则不然，Sass 中添加 Map 有一条非常重要的原因就是：Key-Value 的映射关系。</p><br></div>
+<h2 id="u614E_u7528_u591A_u91CD_u5217_u8868"><a href="#u614E_u7528_u591A_u91CD_u5217_u8868" class="headerlink" title="慎用多重列表"></a>慎用多重列表</h2><div class="note warning"><br>    <h5>测试标题</h5><br>    <p>经过上述的比对，看起来多重列表各方面都在碾压 Map，实则不然，Sass 中添加 Map 有一条非常重要的原因就是：Key-Value 的映射关系。</p><br></div>
 
-<h4 id="遗漏键值">遗漏键值</h4><p>如果要使用多重列表，那么就必须保证自己非常熟悉多重列表内部的每一项所代表的意义。下面我们举个例子，来看看遗漏了某些值的情况：</p>
+<h4 id="u9057_u6F0F_u952E_u503C"><a href="#u9057_u6F0F_u952E_u503C" class="headerlink" title="遗漏键值"></a>遗漏键值</h4><p>如果要使用多重列表，那么就必须保证自己非常熟悉多重列表内部的每一项所代表的意义。下面我们举个例子，来看看遗漏了某些值的情况：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$breakpoint-list: (&#10;&#160; &#160; (small, null, 479px, 16px, 1.3),&#10;&#160; &#160; (medium, 480px, 959px, 18px, 1.414),&#10;&#160; &#160; (large, 960px, 1099px, 18px, 1.5),&#10;&#160; &#160; (xlarge, 1100px, 21px, 1.618)&#10;);&#10;&#10;p &#123;&#10;&#160; &#160; @each $label, $min-width, $max-width, $base-font, $vertical-rhythm in $breakpoint-list &#123;&#10;&#160; &#160; &#160; &#160; @if $min-width &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; @include breakpoint( $min-width ) &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; font-size: $base-font;&#10;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; line-height: $vertical-rhythm;&#10;&#160; &#160; &#160; &#160; &#160; &#160; &#125;&#10;&#160; &#160; &#160; &#160; &#125; @else &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; font-size: $base-font;&#10;&#160; &#160; &#160; &#160; &#160; &#160; line-height: $vertical-rhythm;&#10;&#160; &#160; &#160; &#160; &#125;&#10;&#160; &#160; &#125;&#10;&#125;</span><br></pre></td></tr></table></figure>
 <p>当我们尝试运行这段代码时，结果肯定是错误地，因为在 <code>$breakpoint-list</code> 的最后一行，<code>xlarge</code> 被赋值给了 <code>$label</code>，<code>1100px</code> 被赋值给了 <code>$min-width</code>，<code>21px</code> 被赋值给了 <code>$max-width</code>, <code>1.618</code> 被赋值给了 <code>$base-font</code>，最终导致 <code>$vertical-rhythm</code> 没有被赋值，结果就是 <code>font-size</code> 的属性值是错的，<code>line-height</code> 的属性值是空的。此外，Sass 还不会对此抛出错误，导致我们无从知晓错误所在。</p>
 <p>如果我们使用 Map 来代替这里的多重列表，那么使用 <code>map-get()</code> 函数即使遇见空值也能正确获得想要的结果。这就是值得我们慎重思考的地方：多种列表虽然简单快速，但是丧失了 Map 中的容错能力和快速取值能力。</p>
-<h4 id="查找特定列表">查找特定列表</h4><p>在多重列表中查找特定列表简直就是一种折磨。如果使用 Map，那么配合 <code>map-get()</code> 函数可以快速定位到特定子 Map：</p>
+<h4 id="u67E5_u627E_u7279_u5B9A_u5217_u8868"><a href="#u67E5_u627E_u7279_u5B9A_u5217_u8868" class="headerlink" title="查找特定列表"></a>查找特定列表</h4><p>在多重列表中查找特定列表简直就是一种折磨。如果使用 Map，那么配合 <code>map-get()</code> 函数可以快速定位到特定子 Map：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$medium-map: map-get($maps, medium);</span><br></pre></td></tr></table></figure>
 <p>但如果要获取多种列表 <code>medium</code> 列表，麻烦可就大了：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@function get-list($label) &#123;&#10;&#160; &#160; @each $list in $breakpoint-list &#123;&#10;&#160; &#160; &#160; &#160; @if nth($list, 1) == $label &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; @return $list;&#10;&#160; &#160; &#160; &#160; &#125;&#10;&#160; &#160; &#125;&#10;&#160; &#160; @return null;&#10;&#125;&#10;$medium-list: get-list(medium);</span><br></pre></td></tr></table></figure>
 <p>这段代码的逻辑就是遍历整个多重列表，知道找到第一个匹配项，然后返回，如果一直没有找到匹配项，就一直遍历到末尾，然后返回 <code>null</code>。这实际上就是手工实现了 <code>map-get()</code> 的逻辑。</p>
-<h4 id="缺少原生的_Map_函数">缺少原生的 Map 函数</h4><p>Sass 提供了诸多的原生函数用于处理 Map 数据类型，但是多重列表是没法调用这些函数的，比如，使用 <code>map-merge()</code> 可以合并两个 Map，如果两个 Map 有相同的值，则取第二个 Map 的值为最终值。当然你也可以在多重列表中使用 <code>join()</code> 或 <code>append()</code> 来增加新列表，从而模拟出 <code>map-merge()</code> 的效果。</p>
+<h4 id="u7F3A_u5C11_u539F_u751F_u7684_Map__u51FD_u6570"><a href="#u7F3A_u5C11_u539F_u751F_u7684_Map__u51FD_u6570" class="headerlink" title="缺少原生的 Map 函数"></a>缺少原生的 Map 函数</h4><p>Sass 提供了诸多的原生函数用于处理 Map 数据类型，但是多重列表是没法调用这些函数的，比如，使用 <code>map-merge()</code> 可以合并两个 Map，如果两个 Map 有相同的值，则取第二个 Map 的值为最终值。当然你也可以在多重列表中使用 <code>join()</code> 或 <code>append()</code> 来增加新列表，从而模拟出 <code>map-merge()</code> 的效果。</p>
 <p>另一个实用的 Map 函数就是 <code>map-has-key()</code>，对于依赖 <code>map-get()</code> 的自定义函数来说，<code>map-has-key()</code> 可以用来验证特定的 Key 是否存在。但在列表中是完全没有相似的方法。</p>
-<h2 id="总结">总结</h2><div class="note unreleased"><br>    <h5>Test Title</h5><br>    <p>相比起列表来说，Key-Value 模型的 Map 显然更有力量，原生的 Sass Map 函数更是提供了强力的数据查找和验证工具。</p><br></div>
+<h2 id="u603B_u7ED3"><a href="#u603B_u7ED3" class="headerlink" title="总结"></a>总结</h2><div class="note unreleased"><br>    <h5>Test Title</h5><br>    <p>相比起列表来说，Key-Value 模型的 Map 显然更有力量，原生的 Sass Map 函数更是提供了强力的数据查找和验证工具。</p><br></div>
+
+<p>虽然多重列表代码量少，但并不能像 Map 一样进行错误检查或验证参数。在大多数时候，相比较多重列表而言，我相信 Map 是更好的选择。如果是为了更少的代码量和其他简单地调用，那么我偶尔会用用多重列表，但是从项目的宏观控制和数据存储方面显然更优秀。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>如果你使用过 Sass 3.3 之前的版本，那么你一定对那段时光颇有感触，那时候没有现如今这么好的条件，那时候的 Map 还只能用多重列表（lists of list）来模拟。多重列表可以实现复杂数据的嵌套定义，但却不是以键值对的形式实现的，所有当我们需要获取其中特定的某一项时就会比较麻烦。Map 这种数据类型天生就是基于键值对的形式，非常便于组织数据。</p>
+<p>自从可以使用 Map 之后，开发者们开始毫无顾忌地定义 Map 存储数据，比如断点宽度、颜色值、栅格布局等等响应式排版的细节，都被一股脑的塞进了 Map 中。</p>
+<p>那么，有了 Map 之后，我们还有必要使用 List 吗？可能某些人会觉得为了保持向后兼容应该继续使用多重列表模拟 Map，因为可能有些开发者仍然在使用老版本的 Sass 编译器，但实际上，这是多此一举了，Sass 的版本通常由 <code>package.json</code> 或者其他同类型的项目配置文件所控制，往往只需一条命令（<code>gem update sass</code>）即可更新 Sass 的版本，因此基本上无需考虑对老版本的兼容问题。</p>]]>
+    
+    </summary>
+    
+      <category term="abc" scheme="http://yoursite.com/tags/abc/"/>
+    
+      <category term="other" scheme="http://yoursite.com/categories/other/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[辨析 Sass 中的 Map 和 List]]></title>
+    <link href="http://yoursite.com/2015/10/21/a/"/>
+    <id>http://yoursite.com/2015/10/21/a/</id>
+    <published>2015-10-21T02:34:12.000Z</published>
+    <updated>2015-12-14T03:24:30.101Z</updated>
+    <content type="html"><![CDATA[<p>如果你使用过 Sass 3.3 之前的版本，那么你一定对那段时光颇有感触，那时候没有现如今这么好的条件，那时候的 Map 还只能用多重列表（lists of list）来模拟。多重列表可以实现复杂数据的嵌套定义，但却不是以键值对的形式实现的，所有当我们需要获取其中特定的某一项时就会比较麻烦。Map 这种数据类型天生就是基于键值对的形式，非常便于组织数据。</p>
+<p>自从可以使用 Map 之后，开发者们开始毫无顾忌地定义 Map 存储数据，比如断点宽度、颜色值、栅格布局等等响应式排版的细节，都被一股脑的塞进了 Map 中。</p>
+<p>那么，有了 Map 之后，我们还有必要使用 List 吗？可能某些人会觉得为了保持向后兼容应该继续使用多重列表模拟 Map，因为可能有些开发者仍然在使用老版本的 Sass 编译器，但实际上，这是多此一举了，Sass 的版本通常由 <code>package.json</code> 或者其他同类型的项目配置文件所控制，往往只需一条命令（<code>gem update sass</code>）即可更新 Sass 的版本，因此基本上无需考虑对老版本的兼容问题。</p>
+<a id="more"></a>
+<p>使用多重列表替代 Map 的优势之一就是减少代码量。下面让我们来比较一下多种列表和 Map 的语法结构以及遍历方式。</p>
+<h2 id="u6D4B_u8BD5_u8868_u683C"><a href="#u6D4B_u8BD5_u8868_u683C" class="headerlink" title="测试表格"></a>测试表格</h2><table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>site</code></td>
+<td>Sitewide information.</td>
+</tr>
+<tr>
+<td><code>page</code></td>
+<td>Page specific information and custom variables set in front-matter.</td>
+</tr>
+<tr>
+<td><code>config</code></td>
+<td>Site configuration</td>
+</tr>
+<tr>
+<td><code>theme</code></td>
+<td>Theme configuration. Inherits from site configuration.</td>
+</tr>
+<tr>
+<td><code>_</code> (single underscore)</td>
+<td><a href="http://lodash.com/" target="_blank" rel="external">Lodash</a> library</td>
+</tr>
+<tr>
+<td><code>path</code></td>
+<td>Path of current page</td>
+</tr>
+<tr>
+<td><code>url</code></td>
+<td>Full URL of current page</td>
+</tr>
+<tr>
+<td><code>env</code></td>
+<td>Environment variables</td>
+</tr>
+</tbody>
+</table>
+<h2 id="u8BED_u6CD5_u6BD4_u8F83"><a href="#u8BED_u6CD5_u6BD4_u8F83" class="headerlink" title="语法比较"></a>语法比较</h2><div class="note"><br>    <h5>测试标题</h5><br>    <p>在下面的示例中，我创建了一个用于控制响应式布局的数据，该数据一共有四个断点，每一个断点都包含了 <code>min-width</code>、<code>max-width</code>、<code>font-size</code> 和 <code>line-height</code> 四个样式。</p><br></div>
+
+<h4 id="Map__u8BED_u6CD5"><a href="#Map__u8BED_u6CD5" class="headerlink" title="Map 语法"></a>Map 语法</h4><p>下面就是使用 Map 存储的数据，具体来说，该 Map 中首先存储了四个用于标识断点的 Key，相对应的是保存具体属性值得 Value。虽然这种形式可读性更高，但是总体代码量却高达 26 行 450 个字符。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$breakpoint-map: (&#10;&#160; &#160; small: (&#10;&#160; &#160; &#160; &#160; min-width: null,&#10;&#160; &#160; &#160; &#160; max-width: 479px,&#10;&#160; &#160; &#160; &#160; base-font: 16px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.3&#10;&#160; &#160; ),&#10;&#160; &#160; medium: (&#10;&#160; &#160; &#160; &#160; min-width: 480px,&#10;&#160; &#160; &#160; &#160; max-width: 959px,&#10;&#160; &#160; &#160; &#160; base-font: 18px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.414&#10;&#160; &#160; ),&#10;&#160; &#160; large: (&#10;&#160; &#160; &#160; &#160; min-width: 960px,&#10;&#160; &#160; &#160; &#160; max-width: 1099px,&#10;&#160; &#160; &#160; &#160; base-font: 18px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.5&#10;&#160; &#160; ),&#10;&#160; &#160; xlarge: (&#10;&#160; &#160; &#160; &#160; min-width: 1100px,&#10;&#160; &#160; &#160; &#160; max-width: null,&#10;&#160; &#160; &#160; &#160; base-font: 21px,&#10;&#160; &#160; &#160; &#160; vertical-rhythm: 1.618&#10;&#160; &#160; )&#10;);</span><br></pre></td></tr></table></figure>
+<h4 id="u591A_u91CD_u5217_u8868_u8BED_u6CD5"><a href="#u591A_u91CD_u5217_u8868_u8BED_u6CD5" class="headerlink" title="多重列表语法"></a>多重列表语法</h4><p>下面的多重列表存储了和上面 Map 同样的数据，在多重列表中没有 Key-Value 的对应关系，这意味着要想找到特定的值，必须使用遍历或 <code>nth()</code> 的方式来实现了。从另一个角度来看，多种列表又比 Map 的代码量小得多，总共只有六行 180 个字符。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$breakpoint-list: (&#10;&#160; &#160; (small, null, 479px, 16px, 1.3),&#10;&#160; &#160; (medium, 480px, 959px, 18px, 1.414),&#10;&#160; &#160; (large, 960px, 1099px, 18px, 1.5),&#10;&#160; &#160; (xlarge, 1100px, null, 21px, 1.618)&#10;);</span><br></pre></td></tr></table></figure>
+<h2 id="u904D_u5386_u6BD4_u8F83"><a href="#u904D_u5386_u6BD4_u8F83" class="headerlink" title="遍历比较"></a>遍历比较</h2><div class="note info"><br>    <h5>测试标题</h5><br>    <p>从上面简单地比较中可以粗略的看出，多种列表的代码量明显少于 Map。但是，如果我们需要遍历这些值得话，复杂度又是怎样的呢？</p><br></div>
+
+<h4 id="u904D_u5386_Map"><a href="#u904D_u5386_Map" class="headerlink" title="遍历 Map"></a>遍历 Map</h4><p>我们可以使用如下的代码遍历 Map：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@each $label, $map in $breakpoint-map &#123;&#125;</span><br></pre></td></tr></table></figure>
+<p>这里的变量 <code>$label</code> 和 <code>$map</code> 会随着对 <code>$breakpoint-map</code> 的遍历被动态地赋值，<code>$label</code> 将会被赋值为 <code>$breakpoint-map</code> 的 Key，而 <code>$map</code> 会被赋值为 <code>$breakpoint-map</code> 的 Value。为了在遍历过程中获取特定值，我们就需要使用 Sass 原生的 <code>map-get()</code> 函数，使用该函数需要传入两个参数：Map 的名字和求取的 Key，最后返回该 Map 中匹配该 Key 的 Value。</p>
+<p>具体的做法就是使用 <code>@each</code> 遍历 Map，然后使用 <code>map-get()</code> 获取特定值，最终只需要六行代码 220 个字符即可完成整个遍历：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@each $label, $map in $breakpoint-map &#123;&#10;&#160; &#160; $min-width: map-get($map, min-width);&#10;&#160; &#160; $max-width: map-get($map, max-width);&#10;&#160; &#160; $base-font: map-get($map, base-font);&#10;&#160; &#160; $vertical-rhythm: map-get($map, vertical-rhythm);&#10;&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="u904D_u5386_u591A_u91CD_u5217_u8868"><a href="#u904D_u5386_u591A_u91CD_u5217_u8868" class="headerlink" title="遍历多重列表"></a>遍历多重列表</h4><p>遍历多重列表不必像遍历 Map 一样动态获取到 Map 后再使用 <code>map-get()</code> 函数取特定值，直接遍历一遍即可获得特定值。</p>
+<p>因为多种列表内层的每一个列表结构相同，都有按照相同顺序排列的五个值，所以我们可以持续遍历每个值并赋值给特定的变量。无需调用 <code>map-get()</code>，直接引用这些变量即可进行赋值等裸机操作。最终遍历多重列表只使用了两行代码 100 个字符：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@each $label, $min-width, $max-width, $base-font, $vertical-rhythm in $breakpoint-list &#123;&#10;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="u614E_u7528_u591A_u91CD_u5217_u8868"><a href="#u614E_u7528_u591A_u91CD_u5217_u8868" class="headerlink" title="慎用多重列表"></a>慎用多重列表</h2><div class="note warning"><br>    <h5>测试标题</h5><br>    <p>经过上述的比对，看起来多重列表各方面都在碾压 Map，实则不然，Sass 中添加 Map 有一条非常重要的原因就是：Key-Value 的映射关系。</p><br></div>
+
+<h4 id="u9057_u6F0F_u952E_u503C"><a href="#u9057_u6F0F_u952E_u503C" class="headerlink" title="遗漏键值"></a>遗漏键值</h4><p>如果要使用多重列表，那么就必须保证自己非常熟悉多重列表内部的每一项所代表的意义。下面我们举个例子，来看看遗漏了某些值的情况：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$breakpoint-list: (&#10;&#160; &#160; (small, null, 479px, 16px, 1.3),&#10;&#160; &#160; (medium, 480px, 959px, 18px, 1.414),&#10;&#160; &#160; (large, 960px, 1099px, 18px, 1.5),&#10;&#160; &#160; (xlarge, 1100px, 21px, 1.618)&#10;);&#10;&#10;p &#123;&#10;&#160; &#160; @each $label, $min-width, $max-width, $base-font, $vertical-rhythm in $breakpoint-list &#123;&#10;&#160; &#160; &#160; &#160; @if $min-width &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; @include breakpoint( $min-width ) &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; font-size: $base-font;&#10;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; line-height: $vertical-rhythm;&#10;&#160; &#160; &#160; &#160; &#160; &#160; &#125;&#10;&#160; &#160; &#160; &#160; &#125; @else &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; font-size: $base-font;&#10;&#160; &#160; &#160; &#160; &#160; &#160; line-height: $vertical-rhythm;&#10;&#160; &#160; &#160; &#160; &#125;&#10;&#160; &#160; &#125;&#10;&#125;</span><br></pre></td></tr></table></figure>
+<p>当我们尝试运行这段代码时，结果肯定是错误地，因为在 <code>$breakpoint-list</code> 的最后一行，<code>xlarge</code> 被赋值给了 <code>$label</code>，<code>1100px</code> 被赋值给了 <code>$min-width</code>，<code>21px</code> 被赋值给了 <code>$max-width</code>, <code>1.618</code> 被赋值给了 <code>$base-font</code>，最终导致 <code>$vertical-rhythm</code> 没有被赋值，结果就是 <code>font-size</code> 的属性值是错的，<code>line-height</code> 的属性值是空的。此外，Sass 还不会对此抛出错误，导致我们无从知晓错误所在。</p>
+<p>如果我们使用 Map 来代替这里的多重列表，那么使用 <code>map-get()</code> 函数即使遇见空值也能正确获得想要的结果。这就是值得我们慎重思考的地方：多种列表虽然简单快速，但是丧失了 Map 中的容错能力和快速取值能力。</p>
+<h4 id="u67E5_u627E_u7279_u5B9A_u5217_u8868"><a href="#u67E5_u627E_u7279_u5B9A_u5217_u8868" class="headerlink" title="查找特定列表"></a>查找特定列表</h4><p>在多重列表中查找特定列表简直就是一种折磨。如果使用 Map，那么配合 <code>map-get()</code> 函数可以快速定位到特定子 Map：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$medium-map: map-get($maps, medium);</span><br></pre></td></tr></table></figure>
+<p>但如果要获取多种列表 <code>medium</code> 列表，麻烦可就大了：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@function get-list($label) &#123;&#10;&#160; &#160; @each $list in $breakpoint-list &#123;&#10;&#160; &#160; &#160; &#160; @if nth($list, 1) == $label &#123;&#10;&#160; &#160; &#160; &#160; &#160; &#160; @return $list;&#10;&#160; &#160; &#160; &#160; &#125;&#10;&#160; &#160; &#125;&#10;&#160; &#160; @return null;&#10;&#125;&#10;$medium-list: get-list(medium);</span><br></pre></td></tr></table></figure>
+<p>这段代码的逻辑就是遍历整个多重列表，知道找到第一个匹配项，然后返回，如果一直没有找到匹配项，就一直遍历到末尾，然后返回 <code>null</code>。这实际上就是手工实现了 <code>map-get()</code> 的逻辑。</p>
+<h4 id="u7F3A_u5C11_u539F_u751F_u7684_Map__u51FD_u6570"><a href="#u7F3A_u5C11_u539F_u751F_u7684_Map__u51FD_u6570" class="headerlink" title="缺少原生的 Map 函数"></a>缺少原生的 Map 函数</h4><p>Sass 提供了诸多的原生函数用于处理 Map 数据类型，但是多重列表是没法调用这些函数的，比如，使用 <code>map-merge()</code> 可以合并两个 Map，如果两个 Map 有相同的值，则取第二个 Map 的值为最终值。当然你也可以在多重列表中使用 <code>join()</code> 或 <code>append()</code> 来增加新列表，从而模拟出 <code>map-merge()</code> 的效果。</p>
+<p>另一个实用的 Map 函数就是 <code>map-has-key()</code>，对于依赖 <code>map-get()</code> 的自定义函数来说，<code>map-has-key()</code> 可以用来验证特定的 Key 是否存在。但在列表中是完全没有相似的方法。</p>
+<h2 id="u603B_u7ED3"><a href="#u603B_u7ED3" class="headerlink" title="总结"></a>总结</h2><div class="note unreleased"><br>    <h5>Test Title</h5><br>    <p>相比起列表来说，Key-Value 模型的 Map 显然更有力量，原生的 Sass Map 函数更是提供了强力的数据查找和验证工具。</p><br></div>
 
 <p>虽然多重列表代码量少，但并不能像 Map 一样进行错误检查或验证参数。在大多数时候，相比较多重列表而言，我相信 Map 是更好的选择。如果是为了更少的代码量和其他简单地调用，那么我偶尔会用用多重列表，但是从项目的宏观控制和数据存储方面显然更优秀。</p>
 ]]></content>
