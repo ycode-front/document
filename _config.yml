@@ -73,6 +73,10 @@ theme: modernist
 deploy:
   type: git
   repo: git@github.com:ycode-front/ycode-front.github.io.git
+# - type: rsync
+#   host: 139.196.9.252
+#   user: root
+#   root: /root/demo/ycode-doc/www
 
 feed:
   type: atom
